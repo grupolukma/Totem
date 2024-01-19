@@ -10,6 +10,7 @@
     <title>representantes</title>
 </head>
 <body>
+    
     <header>
         <img src="../img/Logo - Grupo Lukma.png" alt="Logo da Empresa" class="logo-img2">
     </header>
@@ -191,7 +192,12 @@
             </g>
             
         </svg>
-
+        <script>
+            // Adicione a seguinte função para exibir a mensagem quando SP for clicado
+            document.getElementById('state-sp').addEventListener('click', function() {
+                document.getElementById('mensagem').innerText = 'Bem-vindo a São Paulo!';
+            });
+        </script>
         <p id="mensagem"></p>
        </main>
 
