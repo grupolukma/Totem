@@ -64,6 +64,26 @@ color: #052e6f;
     margin-right: 5px;
 }
 
+.home-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #3498db;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #fff;
+    display: flex;
+    align-items: center;
+}
+
+.home-button img {
+    width: 40px;
+    margin-left: 5px;
+}
+
+
+
 /* Adicionando regras de mídia para tornar o layout responsivo em telas menores */
 
 @media screen and (max-width: 600px) {
@@ -83,6 +103,16 @@ color: #052e6f;
     }
 
     .back-button img {
+        width: 30px; /* Ajuste o tamanho da imagem para telas menores */
+    }
+
+    .home-button {
+        bottom: 10px; /* Ajuste a posição inferior para telas menores */
+        right: 10px; /* Ajuste a posição à esquerda para telas menores */
+        padding: 8px; /* Reduza o padding para telas menores */
+    }
+
+    .home-button img {
         width: 30px; /* Ajuste o tamanho da imagem para telas menores */
     }
 }
