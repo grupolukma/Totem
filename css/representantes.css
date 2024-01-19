@@ -38,27 +38,11 @@ color: #052e6f;
         transition: 0.1s linear;
     }
 
-.menu-button {
-    width: 40%; /* Alterado para ocupar 100% da largura */
-    padding: 30px; /* Reduzido o padding */
-    margin: 60px 0; /* Reduzido o margin e ajustado para 20px no topo e inferior */
-    text-align: center;
-    background-color: #3498db;
-    color: #fff;
-    cursor: pointer;
-    border-radius: 10px;
-}
-
-#qr-code {
-    margin-top: 20px;
-    /* Estilo para o QR code */
-}
-
-.logo-img {
-    max-width: 100%; /* Alterado para ocupar 100% da largura */
+.logo-img2 {
+    max-width: 40%; /* Alterado para ocupar 100% da largura */
     height: auto;
-    display: block;
     margin: 20px 0; /* Ajustado para 20px no topo e inferior, centralizando horizontalmente */
+    align-items: center;
 }
 
 
@@ -88,8 +72,8 @@ color: #052e6f;
         margin: 10px 0;
     }
 
-    .logo-img {
-        max-width: 80%;
+    .logo-img2 {
+        max-width: 40%;
     }
 
     .back-button {
