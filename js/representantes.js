@@ -59,7 +59,7 @@ document.getElementById('state-ba').addEventListener('click', function() {
 });
 
 document.getElementById('state-ma').addEventListener('click', function() {
-    document.getElementById('mensagem').innerText = 'Manharão';
+    document.getElementById('mensagem').innerText = 'Maranhão';
 });
 
 document.getElementById('state-pi').addEventListener('click', function() {
@@ -90,7 +90,7 @@ document.getElementById('state-ap').addEventListener('click', function() {
     document.getElementById('mensagem').innerText = 'Amapá';
 });
 
-document.getElementById('state-ap').addEventListener('click', function() {
+document.getElementById('state-ac').addEventListener('click', function() {
     document.getElementById('mensagem').innerText = 'Acre';
 });
 
