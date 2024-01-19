@@ -1,0 +1,39 @@
+ var estadoNomes = {
+        'BR-DF': 'Distrito Federal',
+        'BR-RS': 'Rio Grande do Sul',
+        'BR-SC': 'Santa Catarina',
+        'BR-PR': 'Paraná',
+        'BR-SP': 'São Paulo',
+        'BR-MG': 'Minas Gerais',
+        'BR-RJ': 'Rio de Janeiro',
+        'BR-ES': 'Espírito Santo',
+        'BR-MT': 'Mato Grosso',
+        'BR-MS': 'Mato Grosso do Sul',      
+        'BR-GO': 'Goiás',  
+        'BR-PE': 'Pernambuco', 
+        'BR-CE': 'Ceará',
+        'BR-SE': 'Sergipe', 
+        'BR-BA': 'Bahia', 
+        'BR-MA': 'Maranhão',
+        'BR-PI': 'Piauí', 
+        'BR-AL': 'Alagoas',
+        'BR-PB': 'Paraíba', 
+        'BR-RN': 'Rio Grande do Norte', 
+        'BR-AM': 'Amazonas', 
+        'BR-TO': 'Tocantins',
+        'BR-AP': 'Amapá',
+        'BR-AC': 'Acre',
+        'BR-RO': 'Rondônia',
+        'BR-RR': 'Roraima',
+        'BR-PA': 'Pará'
+        
+    };
+
+    #chart_div path {
+    stroke: transparent !important;
+}
+
+#chart_div {
+    float: left;
+    /* Outros estilos... */
+}

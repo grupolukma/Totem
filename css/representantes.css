@@ -1,0 +1,104 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+main p {
+color: #052e6f;
+}
+
+.state {
+    cursor: default;
+    fill: #3498db;
+}
+
+    .state:hover {
+        fill: #0f28b6;
+        transition: 0.1s linear;
+    }
+
+.menu-button {
+    width: 40%; /* Alterado para ocupar 100% da largura */
+    padding: 30px; /* Reduzido o padding */
+    margin: 60px 0; /* Reduzido o margin e ajustado para 20px no topo e inferior */
+    text-align: center;
+    background-color: #3498db;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+#qr-code {
+    margin-top: 20px;
+    /* Estilo para o QR code */
+}
+
+.logo-img {
+    max-width: 100%; /* Alterado para ocupar 100% da largura */
+    height: auto;
+    display: block;
+    margin: 20px 0; /* Ajustado para 20px no topo e inferior, centralizando horizontalmente */
+}
+
+
+.back-button {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    background-color: #3498db;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #fff;
+    display: flex;
+    align-items: center;
+}
+
+.back-button img {
+    width: 40px;
+    margin-right: 5px;
+}
+
+/* Adicionando regras de mídia para tornar o layout responsivo em telas menores */
+
+@media screen and (max-width: 600px) {
+    .menu-button {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    .logo-img {
+        max-width: 80%;
+    }
+
+    .back-button {
+        bottom: 10px; /* Ajuste a posição inferior para telas menores */
+        left: 10px; /* Ajuste a posição à esquerda para telas menores */
+        padding: 8px; /* Reduza o padding para telas menores */
+    }
+
+    .back-button img {
+        width: 30px; /* Ajuste o tamanho da imagem para telas menores */
+    }
+}
