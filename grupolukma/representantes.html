@@ -193,36 +193,36 @@
             
         </svg>
         <script>
-            function displaySelectedState(stateName) {
-    document.getElementById('estadoSelecionado').innerHTML = "Estado selecionado: " + stateName;
+            document.getElementById('state-sp').addEventListener('click', function() {
+        document.getElementById('mensagem').innerText = 'Bem-vindo a São Paulo!';
+    });
 
-    // Limpa a mensagem especial
-    document.getElementById('mensagemEspecial').innerHTML = "";
+    document.getElementById('state-ce').addEventListener('click', function() {
+        document.getElementById('mensagem').innerText = 'Bem-vindo ao Ceará!';
+    });
 
-    if (stateName === 'São Paulo') {
-        // Carrega a mensagem especial para São Paulo de um arquivo externo
-        loadSpecialMessage('../pdf/teste.txt');
-    } else if (stateName === 'Rio de Janeiro') {
-        // Carrega a mensagem especial para Rio de Janeiro de um arquivo externo
-        loadSpecialMessage('../pdf/teste2.txt');
-    }
-    // Adicione mais condições para outros estados, se necessário
-}
+    document.getElementById('state-rr').addEventListener('click', function() {
+        document.getElementById('mensagem').innerText = 'Bem-vindo a Roraima!';
+    });
 
-// Função para carregar mensagem especial de um arquivo externo
-function loadSpecialMessage(filePath) {
-    // Você pode usar AJAX para carregar o conteúdo do arquivo
-    // Aqui, um exemplo simples usando a função fetch (certifique-se de tratar erros):
-    fetch(filePath)
-        .then(response => response.text())
-        .then(data => {
-            // Exibe a mensagem especial no parágrafo
-            document.getElementById('mensagemEspecial').innerHTML = data;
-        })
-        .catch(error => console.error('Erro ao carregar o arquivo:', error));
-}
+    document.getElementById('state-to').addEventListener('click', function() {
+        document.getElementById('mensagem').innerText = 'Bem-vindo ao Tocantins!';
+    });
+
+    document.getElementById('state-ma').addEventListener('click', function() {
+        document.getElementById('mensagem').innerText = 'Bem-vindo ao Maranhão!';
+    });
+
+    document.getElementById('state-rn').addEventListener('click', function() {
+        document.getElementById('mensagem').innerText = 'Bem-vindo ao Rio Grande do Norte!';
+    });
+
+    document.getElementById('state-pb').addEventListener('click', function() {
+        document.getElementById('mensagem').innerText = 'Bem-vindo à Paraíba!';
+    });
+
         </script>
-        <p id="mensagemEspecial"></p>
+        <p id="mensagem"></p>
        </main>
 
     <a href="../index.html" class="back-button">
