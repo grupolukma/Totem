@@ -64,7 +64,7 @@ color: #052e6f;
     align-items: center;
 }
 
-.house-button {
+.home-button {
     position: fixed;
     bottom: 20px;
     right: 20px;
@@ -84,7 +84,7 @@ color: #052e6f;
     margin-right: 5px;
 }
 
-.house-button img {
+.home-button img {
     width: 40px;
     margin-left: 5px;
 }
