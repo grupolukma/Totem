@@ -117,6 +117,10 @@ color: #052e6f;
     }
 }
 
+#mensagem {
+    text-align: center; /* Centraliza o conteúdo horizontalmente */
+}
+
 table {
     width: 100%;
     text-align: center;
@@ -132,4 +136,5 @@ p img{
     height: 30px; /* Defina a altura desejada */
     margin-right: 10px; /* Adicione um espaçamento à direita se necessário */
     vertical-align: middle;
+    display: inline-block;
 }

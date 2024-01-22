@@ -23,14 +23,59 @@ document.getElementById('state-sp').addEventListener('click', function() {
             { nome: 'Sandro', imagem: '../img/logo.png' },
             { nome: 'Carlos', imagem: '../img/logo.png' }
         ];
-    
+        
         var nomes2 = [
             { nome: 'Mayara', imagem: '../img/logo.png' },
-            { nome: 'Diego', imagem: '../img/logo.png' },
+            { nome: 'Diego', imagem: '../img/home.png' },
             { nome: 'Matheus', imagem: '../img/logo.png' }
         ];
-    
+        
         var tabelaHTML = '<table>';
+        
+        // Adiciona a linha com imagens e nomes do array nomes1
+        tabelaHTML += '<tr>';
+        nomes1.forEach(function(item) {
+            tabelaHTML += '<td><img src="' + item.imagem + '" alt="Imagem de ' + item.nome + '"></td>';
+        });
+        tabelaHTML += '</tr>';
+        
+        // Adiciona a linha com nomes do array nomes1
+        tabelaHTML += '<tr>';
+        nomes1.forEach(function(item) {
+            tabelaHTML += '<td>' + item.nome + '</td>';
+        });
+        tabelaHTML += '</tr>';
+        
+        // Adiciona a linha com imagens e nomes do array nomes2
+        tabelaHTML += '<tr>';
+        nomes2.forEach(function(item) {
+            tabelaHTML += '<td><img src="' + item.imagem + '" alt="Imagem de ' + item.nome + '"></td>';
+        });
+        tabelaHTML += '</tr>';
+        
+        // Adiciona a linha com nomes do array nomes2
+        tabelaHTML += '<tr>';
+        nomes2.forEach(function(item) {
+            tabelaHTML += '<td>' + item.nome + '</td>';
+        });
+        tabelaHTML += '</tr>';
+        
+        tabelaHTML += '</table>';
+        
+        document.getElementById('reps').innerHTML = tabelaHTML;
+    });
+
+
+document.getElementById('state-mg').addEventListener('click', function() {
+    document.getElementById('mensagem').innerText = 'Minas Gerais';
+
+    var nomes1 = [
+        { nome: 'eduardo', imagem: '../img/logo.png' },
+        { nome: 'adnan', imagem: '../img/logo.png' },
+        { nome: 'jonas', imagem: '../img/logo.png' }
+    ];
+
+    var tabelaHTML = '<table>';
     
         tabelaHTML += '<tr>';
         nomes1.forEach(function(item) {
@@ -38,20 +83,9 @@ document.getElementById('state-sp').addEventListener('click', function() {
         });
         tabelaHTML += '</tr>';
     
-        tabelaHTML += '<tr>';
-        nomes2.forEach(function(item) {
-            tabelaHTML += '<td><img src="' + item.imagem + '" alt="Imagem de ' + item.nome + '"> ' + item.nome + '</td>';
-        });
-        tabelaHTML += '</tr>';
-    
         tabelaHTML += '</table>';
     
         document.getElementById('reps').innerHTML = tabelaHTML;
-    });
-
-
-document.getElementById('state-mg').addEventListener('click', function() {
-    document.getElementById('mensagem').innerText = 'Minas Gerais';
 });
 
 document.getElementById('state-rj').addEventListener('click', function() {
@@ -72,6 +106,33 @@ document.getElementById('state-ms').addEventListener('click', function() {
 
 document.getElementById('state-go').addEventListener('click', function() {
     document.getElementById('mensagem').innerText = 'Goiás';
+
+    var nomes1 = [
+        { nome: 'RAUL </br> 17 99999-9999 </br> mail.com', imagem: '../img/logo.png' },
+        { nome: 'RODRIGO LEITE </br> 17 99999-9999 </br> mail.com', imagem: '../img/logo.png' },
+        { nome: 'RONI FEITOSA </br> 17 99999-9999 </br> mail.com', imagem: '../img/logo.png' }
+    ];
+    
+    var tabelaHTML = '<table>';
+    
+    tabelaHTML += '<tr>';
+    nomes1.forEach(function(item) {
+        // Inclui a imagem acima do nome
+        tabelaHTML += '<td><img src="' + item.imagem + '" alt="Imagem de ' + item.nome + '"></td>';
+    });
+    
+    tabelaHTML += '</tr>';
+    
+    tabelaHTML += '<tr>';
+    nomes1.forEach(function(item) {
+        // Inclui o nome
+        tabelaHTML += '<td>' + item.nome + '</td>';
+    });
+    tabelaHTML += '</tr>';
+    
+    tabelaHTML += '</table>';
+    
+    document.getElementById('reps').innerHTML = tabelaHTML;
 });
 
 document.getElementById('state-pe').addEventListener('click', function() {
