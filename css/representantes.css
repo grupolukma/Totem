@@ -116,3 +116,20 @@ color: #052e6f;
         width: 30px; /* Ajuste o tamanho da imagem para telas menores */
     }
 }
+
+table {
+    width: 100%;
+    text-align: center;
+    border-spacing: 10px;
+}
+
+td {
+    padding: 10px;
+}
+
+p img{
+    width: 30px; /* Defina a largura desejada */
+    height: 30px; /* Defina a altura desejada */
+    margin-right: 10px; /* Adicione um espaçamento à direita se necessário */
+    vertical-align: middle;
+}

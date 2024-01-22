@@ -17,7 +17,38 @@ document.getElementById('state-pr').addEventListener('click', function() {
 
 document.getElementById('state-sp').addEventListener('click', function() {
     document.getElementById('mensagem').innerText = 'São Paulo';
-});
+        // Criar uma lista de objetos com nome e caminho da imagem
+        var nomes1 = [
+            { nome: 'José', imagem: '../img/logo.png' },
+            { nome: 'Sandro', imagem: '../img/logo.png' },
+            { nome: 'Carlos', imagem: '../img/logo.png' }
+        ];
+    
+        var nomes2 = [
+            { nome: 'Mayara', imagem: '../img/logo.png' },
+            { nome: 'Diego', imagem: '../img/logo.png' },
+            { nome: 'Matheus', imagem: '../img/logo.png' }
+        ];
+    
+        var tabelaHTML = '<table>';
+    
+        tabelaHTML += '<tr>';
+        nomes1.forEach(function(item) {
+            tabelaHTML += '<td><img src="' + item.imagem + '" alt="Imagem de ' + item.nome + '"> ' + item.nome + '</td>';
+        });
+        tabelaHTML += '</tr>';
+    
+        tabelaHTML += '<tr>';
+        nomes2.forEach(function(item) {
+            tabelaHTML += '<td><img src="' + item.imagem + '" alt="Imagem de ' + item.nome + '"> ' + item.nome + '</td>';
+        });
+        tabelaHTML += '</tr>';
+    
+        tabelaHTML += '</table>';
+    
+        document.getElementById('reps').innerHTML = tabelaHTML;
+    });
+
 
 document.getElementById('state-mg').addEventListener('click', function() {
     document.getElementById('mensagem').innerText = 'Minas Gerais';
