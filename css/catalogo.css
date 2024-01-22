@@ -1,4 +1,4 @@
-iframe {
+#magazine {
     width: 100%;
     height: 73.5vh; /* Use a unidade de visualização de altura para garantir que o iframe ocupe toda a altura da janela de visualização */
     border: none;
@@ -11,4 +11,13 @@ iframe {
     height: auto;
     margin: 20px 0; /* Ajustado para 20px no topo e inferior, centralizando horizontalmente */
     align-items: center;
+}
+
+#magazine{
+	width:576px;
+	height:752px;
+}
+#magazine .turn-page{
+	background-image: url(../../img/catalogolukma/01.jpg);
+	background-size:100% 100%;
 }
