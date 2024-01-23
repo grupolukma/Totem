@@ -189,11 +189,11 @@ body{
 	visibility: hidden;
 }
 
-.touch .slide .page{
+/* .touch .slide .page{
 	background:white;
 	text-align:center;
 	line-height:100px;
-}
+} */
 
 /* .touch .slide .single img{
 	width: 100%;
@@ -263,7 +263,7 @@ body{
 }
 
 
-.icon.zoom-in{
+/* .icon.zoom-in{
 	background-position:0 0;
 }
 
@@ -315,7 +315,7 @@ body{
 .bar .item:hover .icon.clip,
 .pressed .icon.clip{
 	background-position:-260px 0;
-}
+} */
 
 .magazine-viewport .container{
 	position:absolute;
