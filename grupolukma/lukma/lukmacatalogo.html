@@ -3,67 +3,86 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../../css/styles.css">
-    <link rel="stylesheet" href="../../css/catalogo.css">
-
-    <script src="https://mozilla.github.io/pdf.js/build/pdf.js"></script>
-    <script type="text/javascript" src="../../js/jquery17.js"></script>
-    <script type="text/javascript" src="../../js/turn.min.js"></script>
-
-    <title>Lukma</title>
-</head>
-<body>
-    <header>
-        <img src="../../img/Logo - Grupo Lukma.png" alt="Logo da Empresa" class="logo-img2">
-    </header>
-
-    <main>
-        <div id="magazine">
-            <!-- Adicione a tag img para exibir a imagem do produto -->
-            <img id="product-image" src="" alt="Product Image">
-            
-            <!-- Adicione as divs para as páginas do magazine -->
-            <div style="background-image:url(../../img/catalogolukma/01.jpg);"></div>
-            <div style="background-image:url(../../img/catalogolukma/02.jpg);"></div>
-            <div style="background-image:url(../../img/catalogolukma/03.jpg);"></div>
-            <div style="background-image:url(../../img/catalogolukma/04.jpg);"></div>
-            <div style="background-image:url(../../img/catalogolukma/05.jpg);"></div>
-            <div style="background-image:url(../../img/catalogolukma/06.jpg);"></div>
-            <div style="background-image:url(../../img/catalogolukma/07.jpg);"></div>
-            <div style="background-image:url(../../img/catalogolukma/08.jpg);"></div>
-        </div>
-    </main>
-
-    <script>
-        const imagePaths = [
-            "../../img/catalogolukma/01.jpg",
-            "../../img/catalogolukma/02.jpg",
-            "../../img/catalogolukma/03.jpg",
-            "../../img/catalogolukma/04.jpg",
-            "../../img/catalogolukma/05.jpg",
-            "../../img/catalogolukma/06.jpg",
-            "../../img/catalogolukma/07.jpg",
-            "../../img/catalogolukma/08.jpg",
-            // Adicione mais caminhos conforme necessário
-        ];
-
-        let currentImageIndex = 0;
-        const productImage = document.getElementById('product-image');
-        let touchStartX = 0;
-
-        function showImage(index) {
-            productImage.src = imagePaths[index];
+    <style>
+        body {
+            margin: 0;
+            overflow: hidden;
         }
 
+        .catalog-container {
+            display: flex;
+            width: 100%;
+            height: 100vh;
+            transition: transform 0.5s ease-in-out;
+        }
+
+        .page {
+            flex: 0 0 100%;
+        }
+
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    </style>
+    <title>Catálogo</title>
+</head>
+<body>
+    <div class="catalog-container">
+        <div class="page" id="page1">
+            <img src="../../img/catalogolukma/01.jpg" alt="Page 1">
+        </div>
+        <div class="page" id="page2">
+            <img src="../../img/catalogolukma/02.jpg" alt="Page 2">
+        </div>
+        <div class="page" id="page3">
+            <img src="../../img/catalogolukma/03.jpg" alt="Page 3">
+        </div>
+        <div class="page" id="page4">
+            <img src="../../img/catalogolukma/04.jpg" alt="Page 4">
+        </div>
+        <div class="page" id="page5">
+            <img src="../../img/catalogolukma/05.jpg" alt="Page 5">
+        </div>
+        <div class="page" id="page6">
+            <img src="../../img/catalogolukma/06.jpg" alt="Page 6">
+        </div>
+        <div class="page" id="page7">
+            <img src="../../img/catalogolukma/07.jpg" alt="Page 7">
+        </div>
+        <div class="page" id="page8">
+            <img src="../../img/catalogolukma/08.jpg" alt="Page 8">
+        </div>
+        <!-- Adicione mais páginas conforme necessário -->
+    </div>
+
+    <script>
+        const catalogContainer = document.querySelector('.catalog-container');
+        let currentPage = 1;
+
         function previousImage() {
-            currentImageIndex = (currentImageIndex - 1 + imagePaths.length) % imagePaths.length;
-            showImage(currentImageIndex);
+            if (currentPage > 1) {
+                currentPage--;
+                updateCatalog();
+            }
         }
 
         function nextImage() {
-            currentImageIndex = (currentImageIndex + 1) % imagePaths.length;
-            showImage(currentImageIndex);
+            const totalPages = document.querySelectorAll('.page').length;
+            if (currentPage < totalPages) {
+                currentPage++;
+                updateCatalog();
+            }
         }
+
+        function updateCatalog() {
+            const translateValue = -(currentPage - 1) * 100;
+            catalogContainer.style.transform = `translateX(${translateValue}%)`;
+        }
+
+        let touchStartX = 0;
+        const productImage = document.querySelector('.catalog-container');
 
         productImage.addEventListener('touchstart', (e) => {
             touchStartX = e.touches[0].clientX;
@@ -81,41 +100,6 @@
                 nextImage();
             }
         });
-
-        // Exibir a primeira imagem ao carregar a página
-        showImage(currentImageIndex);
-
-        $(window).ready(function() {
-            $('#magazine').turn({
-                display: 'single',
-                acceleration: true,
-                gradients: !$.isTouch,
-                elevation:50,
-                swipe: true,
-                when: {
-                    turned: function(e, page) {
-                        /*console.log('Current view: ', $(this).turn('view'));*/
-                        // Atualiza a imagem do produto ao virar a página
-                        showImage(page - 1);
-                    }
-                }
-            });
-        });
-
-        $(window).bind('keydown', function(e){
-            if (e.keyCode==37)
-                $('#magazine').turn('previous');
-            else if (e.keyCode==39)
-                $('#magazine').turn('next');
-        });
     </script>
-
-    <a href="lukma.html" class="back-button">
-        <img src="../../img/seta_esquerda.png" alt="Seta para a Esquerda">
-    </a>
-    <a href="../../index.html" class="home-button">
-        <img src="../../img/home.png" alt="Casa">
-    </a>
-    <script src="../../js/script.js"></script>
 </body>
 </html>
