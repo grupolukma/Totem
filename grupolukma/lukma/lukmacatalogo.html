@@ -18,7 +18,20 @@
     </header>
 
     <main>
-        <img id="product-image" src="" alt="Product Image">
+        <div id="magazine">
+            <!-- Adicione a tag img para exibir a imagem do produto -->
+            <img id="product-image" src="" alt="Product Image">
+            
+            <!-- Adicione as divs para as páginas do magazine -->
+            <div style="background-image:url(../../img/catalogolukma/01.jpg);"></div>
+            <div style="background-image:url(../../img/catalogolukma/02.jpg);"></div>
+            <div style="background-image:url(../../img/catalogolukma/03.jpg);"></div>
+            <div style="background-image:url(../../img/catalogolukma/04.jpg);"></div>
+            <div style="background-image:url(../../img/catalogolukma/05.jpg);"></div>
+            <div style="background-image:url(../../img/catalogolukma/06.jpg);"></div>
+            <div style="background-image:url(../../img/catalogolukma/07.jpg);"></div>
+            <div style="background-image:url(../../img/catalogolukma/08.jpg);"></div>
+        </div>
     </main>
 
     <script>
@@ -71,6 +84,30 @@
 
         // Exibir a primeira imagem ao carregar a página
         showImage(currentImageIndex);
+
+        $(window).ready(function() {
+            $('#magazine').turn({
+                display: 'single',
+                acceleration: true,
+                gradients: !$.isTouch,
+                elevation:50,
+                swipe: true,
+                when: {
+                    turned: function(e, page) {
+                        /*console.log('Current view: ', $(this).turn('view'));*/
+                        // Atualiza a imagem do produto ao virar a página
+                        showImage(page - 1);
+                    }
+                }
+            });
+        });
+
+        $(window).bind('keydown', function(e){
+            if (e.keyCode==37)
+                $('#magazine').turn('previous');
+            else if (e.keyCode==39)
+                $('#magazine').turn('next');
+        });
     </script>
 
     <a href="lukma.html" class="back-button">
