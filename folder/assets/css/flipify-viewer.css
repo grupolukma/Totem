@@ -9,7 +9,7 @@ body{
 	padding:0;
 }
 .touch body{
-	background-color:#ffffff;
+	background-color:#333;
 }
 .desktop body{
 	background-image:url(../imgs/background.png);
