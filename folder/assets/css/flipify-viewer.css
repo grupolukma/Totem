@@ -179,6 +179,7 @@ body{
 	height:100px;
 	margin-top:10px;
 	overflow:hidden;
+	visibility: hidden;
 
 }
 
