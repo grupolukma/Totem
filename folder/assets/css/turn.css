@@ -10,7 +10,7 @@
 	left: 50%;
 }
 .turn-magazine .loader > i {
-	background-image:url(../imgs/loader.gif);
+	/* background-image:url(../imgs/loader.gif); */
 	width:22px;
 	height:22px;
 	display:inline-block;
