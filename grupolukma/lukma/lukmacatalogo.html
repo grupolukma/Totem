@@ -18,49 +18,60 @@
     </header>
 
     <main>
-        <!-- Usar a tag <iframe> com parâmetros específicos para ocultar barras de ferramentas -->
-            <div id="magazine">
-                <div style="background-image:url(../../img/catalogolukma/01.jpg);"></div>
-                <div style="background-image:url(../../img/catalogolukma/02.jpg);"></div>
-                <div style="background-image:url(../../img/catalogolukma/03.jpg);"></div>
-                <div style="background-image:url(../../img/catalogolukma/04.jpg);"></div>
-                <div style="background-image:url(../../img/catalogolukma/05.jpg);"></div>
-                <div style="background-image:url(../../img/catalogolukma/06.jpg);"></div>
-                <div style="background-image:url(../../img/catalogolukma/07.jpg);"></div>
-                <div style="background-image:url(../../img/catalogolukma/08.jpg);"></div>
-            </div>
-            
-            
-            <script type="text/javascript">
-            
-                $(window).ready(function() {
-                    $('#magazine').turn({
-                                        display: 'single',
-                                        acceleration: true,
-                                        gradients: !$.isTouch,
-                                        elevation:50,
-                                        swipe: true,
-                                        when: {
-                                            turned: function(e, page) {
-                                                /*console.log('Current view: ', $(this).turn('view'));*/
-                                            }
-                                        }
-                                    });
-                });
-                
-                
-                $(window).bind('keydown', function(e){
-                    
-                    if (e.keyCode==37)
-                        $('#magazine').turn('previous');
-                    else if (e.keyCode==39)
-                        $('#magazine').turn('next');
-                        
-                });
-            
-            </script>
+        <img id="product-image" src="" alt="Product Image">
     </main>
 
+    <script>
+        const imagePaths = [
+            "../../img/catalogolukma/01.jpg",
+            "../../img/catalogolukma/02.jpg",
+            "../../img/catalogolukma/03.jpg",
+            "../../img/catalogolukma/04.jpg",
+            "../../img/catalogolukma/05.jpg",
+            "../../img/catalogolukma/06.jpg",
+            "../../img/catalogolukma/07.jpg",
+            "../../img/catalogolukma/08.jpg",
+            // Adicione mais caminhos conforme necessário
+        ];
+
+        let currentImageIndex = 0;
+        const productImage = document.getElementById('product-image');
+        let touchStartX = 0;
+
+        function showImage(index) {
+            productImage.src = imagePaths[index];
+        }
+
+        function previousImage() {
+            currentImageIndex = (currentImageIndex - 1 + imagePaths.length) % imagePaths.length;
+            showImage(currentImageIndex);
+        }
+
+        function nextImage() {
+            currentImageIndex = (currentImageIndex + 1) % imagePaths.length;
+            showImage(currentImageIndex);
+        }
+
+        productImage.addEventListener('touchstart', (e) => {
+            touchStartX = e.touches[0].clientX;
+        });
+
+        productImage.addEventListener('touchend', (e) => {
+            const touchEndX = e.changedTouches[0].clientX;
+            const swipeDistance = touchEndX - touchStartX;
+
+            if (swipeDistance > 50) {
+                // Swipe para a direita
+                previousImage();
+            } else if (swipeDistance < -50) {
+                // Swipe para a esquerda
+                nextImage();
+            }
+        });
+
+        // Exibir a primeira imagem ao carregar a página
+        showImage(currentImageIndex);
+    </script>
 
     <a href="lukma.html" class="back-button">
         <img src="../../img/seta_esquerda.png" alt="Seta para a Esquerda">
