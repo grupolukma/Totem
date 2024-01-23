@@ -1,12 +1,9 @@
-html, body{
-	width:100%;
-	height:100%;
-}
-
 body{
 	overflow:hidden;
-	margin:0;
-	padding:0;
+	font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    position: relative;
 }
 /* .touch body{
 	background-color:#333;
@@ -198,49 +195,49 @@ body{
 	line-height:100px;
 }
 
-.touch .slide .single img{
+/* .touch .slide .single img{
 	width: 100%;
   	width: -webkit-calc(100% - 6px);
   	width: calc(100% - 6px);
   	height: 100%;
   	height: -webkit-calc(100% - 6px);
   	height: calc(100% - 6px);
-  	/*vertical-align: middle;*/
+  	/*vertical-align: middle;
 	margin-top:3px;
 	background-color:white;
-}
+} */
 
 .touch .slide .double-even{
 	text-align: right;
 }
 
-.touch .slide .double-even img{
+/* .touch .slide .double-even img{
 	width: 100%;
   	width: -webkit-calc(100% - 3px);
   	width: calc(100% - 3px);
   	height: 100%;
   	height: -webkit-calc(100% - 6px);
   	height: calc(100% - 6px);
-  	/*vertical-align: middle;*/
+  	/*vertical-align: middle;
   	margin-top:3px;
   	background-color:white;
-}
+} */
 
 .touch .slide .double-odd{
 	text-align: left;
 }
 
-.touch .slide .double-odd img{
+/* .touch .slide .double-odd img{
 	width: 100%;
   	width: -webkit-calc(100% - 3px);
   	width: calc(100% - 3px);
   	height: 100%;
   	height: -webkit-calc(100% - 6px);
   	height: calc(100% - 6px);
-  	/*vertical-align: middle;*/
+  	/*vertical-align: middle;
   	margin-top:3px;
   	background-color:white;
-}
+} */
 
 .navigation.touch .bottom{
 	-webkit-transform: translate3d(0px, 0px, 0px);
