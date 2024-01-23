@@ -3,103 +3,66 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catálogo</title>
     <style>
         body {
             margin: 0;
             overflow: hidden;
         }
-
-        .catalog-container {
-            display: flex;
-            width: 100%;
+        #flipbook {
+            width: 100vw;
             height: 100vh;
-            transition: transform 0.5s ease-in-out;
-        }
-
-        .page {
-            flex: 0 0 100%;
-        }
-
-        img {
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
         }
     </style>
-    <title>Catálogo</title>
 </head>
 <body>
-    <div class="catalog-container">
-        <div class="page" id="page1">
-            <img src="../../img/catalogolukma/01.jpg" alt="Page 1">
-        </div>
-        <div class="page" id="page2">
-            <img src="../../img/catalogolukma/02.jpg" alt="Page 2">
-        </div>
-        <div class="page" id="page3">
-            <img src="../../img/catalogolukma/03.jpg" alt="Page 3">
-        </div>
-        <div class="page" id="page4">
-            <img src="../../img/catalogolukma/04.jpg" alt="Page 4">
-        </div>
-        <div class="page" id="page5">
-            <img src="../../img/catalogolukma/05.jpg" alt="Page 5">
-        </div>
-        <div class="page" id="page6">
-            <img src="../../img/catalogolukma/06.jpg" alt="Page 6">
-        </div>
-        <div class="page" id="page7">
-            <img src="../../img/catalogolukma/07.jpg" alt="Page 7">
-        </div>
-        <div class="page" id="page8">
-            <img src="../../img/catalogolukma/08.jpg" alt="Page 8">
-        </div>
-        <!-- Adicione mais páginas conforme necessário -->
-    </div>
 
-    <script>
-        const catalogContainer = document.querySelector('.catalog-container');
-        let currentPage = 1;
+<div id="flipbook">
+    <div class="page" style="background-image:url('../../img/catalogolukma/01.jpg');"></div>
+    <div class="page" style="background-image:url('../../img/catalogolukma/02.jpg');"></div>
+    <div class="page" style="background-image:url('../../img/catalogolukma/03.jpg');"></div>
+    <div class="page" style="background-image:url('../../img/catalogolukma/04.jpg');"></div>
+    <div class="page" style="background-image:url('../../img/catalogolukma/05.jpg');"></div>
+    <div class="page" style="background-image:url('../../img/catalogolukma/06.jpg');"></div>
+    <div class="page" style="background-image:url('../../img/catalogolukma/07.jpg');"></div>
+    <div class="page" style="background-image:url('../../img/catalogolukma/08.jpg');"></div>
+    <!-- Adicione mais divs de página conforme necessário -->
+</div>
 
-        function previousImage() {
-            if (currentPage > 1) {
-                currentPage--;
-                updateCatalog();
-            }
+<script>
+    let touchStartX = 0;
+
+    const productImage = document.getElementById('flipbook');
+    productImage.addEventListener('touchstart', (e) => {
+        touchStartX = e.touches[0].clientX;
+    });
+
+    productImage.addEventListener('touchend', (e) => {
+        const touchEndX = e.changedTouches[0].clientX;
+        const swipeDistance = touchEndX - touchStartX;
+
+        if (swipeDistance > 50) {
+            // Swipe para a direita
+            $('#flipbook').turn('previous');
+        } else if (swipeDistance < -50) {
+            // Swipe para a esquerda
+            $('#flipbook').turn('next');
         }
+    });
 
-        function nextImage() {
-            const totalPages = document.querySelectorAll('.page').length;
-            if (currentPage < totalPages) {
-                currentPage++;
-                updateCatalog();
-            }
-        }
-
-        function updateCatalog() {
-            const translateValue = -(currentPage - 1) * 100;
-            catalogContainer.style.transform = `translateX(${translateValue}%)`;
-        }
-
-        let touchStartX = 0;
-        const productImage = document.querySelector('.catalog-container');
-
-        productImage.addEventListener('touchstart', (e) => {
-            touchStartX = e.touches[0].clientX;
+    $(document).ready(function () {
+        $('#flipbook').turn({
+            width: '100%',
+            height: '100%',
+            autoCenter: true,
+            gradients: true,
+            elevation: 50
         });
+    });
+</script>
 
-        productImage.addEventListener('touchend', (e) => {
-            const touchEndX = e.changedTouches[0].clientX;
-            const swipeDistance = touchEndX - touchStartX;
+<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/turn.js/4.0.3/turn.min.js"></script>
 
-            if (swipeDistance > 50) {
-                // Swipe para a direita
-                previousImage();
-            } else if (swipeDistance < -50) {
-                // Swipe para a esquerda
-                nextImage();
-            }
-        });
-    </script>
 </body>
 </html>
