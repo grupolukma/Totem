@@ -3,66 +3,71 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Catálogo</title>
-    <style>
-        body {
-            margin: 0;
-            overflow: hidden;
-        }
-        #flipbook {
-            width: 100vw;
-            height: 100vh;
-        }
-    </style>
+    <link rel="stylesheet" href="../../css/styles.css">
+    <link rel="stylesheet" href="../../css/catalogo.css">
+
+    <script src="https://mozilla.github.io/pdf.js/build/pdf.js"></script>
+    <script type="text/javascript" src="../../js/jquery17.js"></script>
+    <script type="text/javascript" src="../../js/turn.min.js"></script>
+
+    <title>Lukma</title>
 </head>
 <body>
+    <header>
+        <img src="../../img/Logo - Grupo Lukma.png" alt="Logo da Empresa" class="logo-img2">
+    </header>
 
-<div id="flipbook">
-    <div class="page" style="background-image:url('../../img/catalogolukma/01.jpg');"></div>
-    <div class="page" style="background-image:url('../../img/catalogolukma/02.jpg');"></div>
-    <div class="page" style="background-image:url('../../img/catalogolukma/03.jpg');"></div>
-    <div class="page" style="background-image:url('../../img/catalogolukma/04.jpg');"></div>
-    <div class="page" style="background-image:url('../../img/catalogolukma/05.jpg');"></div>
-    <div class="page" style="background-image:url('../../img/catalogolukma/06.jpg');"></div>
-    <div class="page" style="background-image:url('../../img/catalogolukma/07.jpg');"></div>
-    <div class="page" style="background-image:url('../../img/catalogolukma/08.jpg');"></div>
-    <!-- Adicione mais divs de página conforme necessário -->
-</div>
+    <main>
+        <!-- Usar a tag <iframe> com parâmetros específicos para ocultar barras de ferramentas -->
+            <div id="magazine">
+                <div style="background-image:url(../../img/catalogolukma/01.jpg);"></div>
+                <div style="background-image:url(../../img/catalogolukma/02.jpg);"></div>
+                <div style="background-image:url(../../img/catalogolukma/03.jpg);"></div>
+                <div style="background-image:url(../../img/catalogolukma/04.jpg);"></div>
+                <div style="background-image:url(../../img/catalogolukma/05.jpg);"></div>
+                <div style="background-image:url(../../img/catalogolukma/06.jpg);"></div>
+                <div style="background-image:url(../../img/catalogolukma/07.jpg);"></div>
+                <div style="background-image:url(../../img/catalogolukma/08.jpg);"></div>
+            </div>
+            
+            
+            <script type="text/javascript">
+            
+                $(window).ready(function() {
+                    $('#magazine').turn({
+                                        display: 'single',
+                                        acceleration: true,
+                                        gradients: !$.isTouch,
+                                        elevation:50,
+                                        swipe: true,
+                                        when: {
+                                            turned: function(e, page) {
+                                                /*console.log('Current view: ', $(this).turn('view'));*/
+                                            }
+                                        }
+                                    });
+                });
+                
+                
+                $(window).bind('keydown', function(e){
+                    
+                    if (e.keyCode==37)
+                        $('#magazine').turn('previous');
+                    else if (e.keyCode==39)
+                        $('#magazine').turn('next');
+                        
+                });
+            
+            </script>
+    </main>
 
-<script>
-    let touchStartX = 0;
 
-    const productImage = document.getElementById('flipbook');
-    productImage.addEventListener('touchstart', (e) => {
-        touchStartX = e.touches[0].clientX;
-    });
-
-    productImage.addEventListener('touchend', (e) => {
-        const touchEndX = e.changedTouches[0].clientX;
-        const swipeDistance = touchEndX - touchStartX;
-
-        if (swipeDistance > 50) {
-            // Swipe para a direita
-            $('#flipbook').turn('previous');
-        } else if (swipeDistance < -50) {
-            // Swipe para a esquerda
-            $('#flipbook').turn('next');
-        }
-    });
-
-    $(document).ready(function () {
-        $('#flipbook').turn({
-            width: '100%',
-            height: '100%',
-            autoCenter: true,
-            gradients: true,
-            elevation: 50
-        });
-    });
-</script>
-
-<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/turn.js/4.0.3/turn.min.js"></script>
-
+    <a href="lukma.html" class="back-button">
+        <img src="../../img/seta_esquerda.png" alt="Seta para a Esquerda">
+    </a>
+    <a href="../../index.html" class="home-button">
+        <img src="../../img/home.png" alt="Casa">
+    </a>
+    <script src="../../js/script.js"></script>
 </body>
 </html>
