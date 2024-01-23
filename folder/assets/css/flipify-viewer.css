@@ -148,7 +148,7 @@ body{
 	height:40px;
 	z-index:1000;
 }
-.thumbnails{
+.thumbnails img{
 	visibility: hidden;
 }
 .touch .bottom{
