@@ -19,37 +19,23 @@ document.getElementById('state-sp').addEventListener('click', function() {
     document.getElementById('mensagem').innerText = 'São Paulo';
         // Criar uma lista de objetos com nome e caminho da imagem
         var nomes1 = [
-            { nome: 'José', imagem: '../img/logo.png' },
-            { nome: 'Sandro', imagem: '../img/logo.png' },
-            { nome: 'Carlos', imagem: '../img/logo.png' }
+            { nome: 'José  |  17 99999-9999  |  mail.com' },
+            { nome: 'Sandro  |  17 99999-9999  |  mail.com' },
+            { nome: 'Carlos  |  17 99999-9999  |  mail.com' }
         ];
         
         var nomes2 = [
-            { nome: 'Mayara', imagem: '../img/logo.png' },
-            { nome: 'Diego', imagem: '../img/home.png' },
-            { nome: 'Matheus', imagem: '../img/logo.png' }
+            { nome: 'Mayara  |  17 99999-9999  |  mail.com' },
+            { nome: 'Diego  |  17 99999-9999  |  mail.com' },
+            { nome: 'Matheus  |  17 99999-9999  |  mail.com' }
         ];
         
         var tabelaHTML = '<table>';
-        
-        // Adiciona a linha com imagens e nomes do array nomes1
-        tabelaHTML += '<tr>';
-        nomes1.forEach(function(item) {
-            tabelaHTML += '<td><img src="' + item.imagem + '" alt="Imagem de ' + item.nome + '"></td>';
-        });
-        tabelaHTML += '</tr>';
         
         // Adiciona a linha com nomes do array nomes1
         tabelaHTML += '<tr>';
         nomes1.forEach(function(item) {
             tabelaHTML += '<td>' + item.nome + '</td>';
-        });
-        tabelaHTML += '</tr>';
-        
-        // Adiciona a linha com imagens e nomes do array nomes2
-        tabelaHTML += '<tr>';
-        nomes2.forEach(function(item) {
-            tabelaHTML += '<td><img src="' + item.imagem + '" alt="Imagem de ' + item.nome + '"></td>';
         });
         tabelaHTML += '</tr>';
         
