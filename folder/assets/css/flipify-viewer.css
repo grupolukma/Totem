@@ -380,13 +380,13 @@ body{
 	filter: alpha(opacity=20);
 }
 
-.magazine .page{
+/* .magazine .page{
 	/*-webkit-box-shadow:0 0 10px rgba(0,0,0,0.);
 	-moz-box-shadow:0 0 20px rgba(0,0,0,0.2);
 	-ms-box-shadow:0 0 20px rgba(0,0,0,0.2);
 	-o-box-shadow:0 0 20px rgba(0,0,0,0.2);
-	box-shadow:0 0 20px rgba(0,0,0,0.2);*/
-}
+	box-shadow:0 0 20px rgba(0,0,0,0.2);
+} */
 
 .magazine-viewport .page img{
 	-webkit-touch-callout: none;
