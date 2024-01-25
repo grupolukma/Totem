@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../../css/styles.css">
+    <link rel="stylesheet" href="../../css/catalogo.css">
 
     <script src="https://mozilla.github.io/pdf.js/build/pdf.js"></script>
 
@@ -11,7 +12,7 @@
 </head>
 <body>
     <header>
-        <img src="../../img/Logo-Lukbox.png" alt="Logo da Empresa" class="logo-img">
+        <img src="../../img/Logo-Lukbox.png" alt="Logo da Empresa" class="logo-img2">
     </header>
 
     <main>
@@ -38,6 +39,25 @@
             atende todas as necessidades da sua obra.
         </p>
         <!-- Adicione o conteúdo específico da página "Quem Somos" aqui -->
+        <div class="video-container">
+            <video id="meuVideo" width="100%" height="auto">
+                <source src="../../vdo/lukbox.mp4" type="video/mp4">
+            </video>
+            <script>
+               var meuVideo = document.getElementById("meuVideo");
+    
+    meuVideo.addEventListener("click", function() {
+        if (meuVideo.paused) {
+            meuVideo.play();
+        } else {
+            meuVideo.pause();
+        }
+    });
+    
+    // Remova os controles padrão
+    meuVideo.removeAttribute("controls");
+            </script>
+        </div>
     </main>
 
     <a href="../quem-somos.html" class="back-button">
