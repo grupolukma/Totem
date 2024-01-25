@@ -56,6 +56,10 @@
     
     // Remova os controles padrão
     meuVideo.removeAttribute("controls");
+        // Inicie o vídeo nos 5 segundos
+        meuVideo.addEventListener("loadedmetadata", function() {
+        meuVideo.currentTime = 2;
+    });
             </script>
         </div>
     </main>
