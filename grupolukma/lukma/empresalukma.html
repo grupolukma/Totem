@@ -52,6 +52,17 @@
         <video width="100%" height="auto">
             <source src="../../img/12.mp4" type="video/mp4">
         </video>
+        <script>
+            var meuVideo = document.getElementById("meuVideo");
+        
+            meuVideo.addEventListener("click", function() {
+                if (meuVideo.paused) {
+                    meuVideo.play();
+                } else {
+                    meuVideo.pause();
+                }
+            });
+        </script>
     </div>
     </main>
 
