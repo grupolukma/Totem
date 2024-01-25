@@ -49,19 +49,22 @@
 
             <!-- Responsive Video -->
     <div class="video-container">
-        <video width="100%" height="auto">
+        <video id="meuVideo" width="100%" height="auto">
             <source src="../../img/12.mp4" type="video/mp4">
         </video>
         <script>
-            var meuVideo = document.getElementById("meuVideo");
-        
-            meuVideo.addEventListener("click", function() {
-                if (meuVideo.paused) {
-                    meuVideo.play();
-                } else {
-                    meuVideo.pause();
-                }
-            });
+           var meuVideo = document.getElementById("meuVideo");
+
+meuVideo.addEventListener("click", function() {
+    if (meuVideo.paused) {
+        meuVideo.play();
+    } else {
+        meuVideo.pause();
+    }
+});
+
+// Remova os controles padrão
+meuVideo.removeAttribute("controls");
         </script>
     </div>
     </main>
