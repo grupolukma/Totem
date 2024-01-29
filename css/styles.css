@@ -41,6 +41,9 @@ color: #052e6f;
     color: #fff;
     cursor: pointer;
     border-radius: 50px;
+    border: 3px solid #fff;
+    font-weight: bold;
+    font-size:x-large;
 }
 
 #qr-code {
@@ -67,6 +70,7 @@ color: #052e6f;
     color: #fff;
     display: flex;
     align-items: center;
+    border: 2px solid #fff;
 }
 
 .back-button img {
@@ -85,6 +89,7 @@ color: #052e6f;
     color: #fff;
     display: flex;
     align-items: center;
+    border: 2px solid #fff;
 }
 
 .home-button img {
