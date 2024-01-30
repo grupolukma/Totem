@@ -1,7 +1,6 @@
-html{
-    /* background: url(../img/fun01.jpg) */
-    background-color: #fff ;
-}
+/* html{
+    background: url(../img/fun01.jpg) no-repeat center center / cover
+} */
 
 body {
     font-family: Arial, sans-serif;
@@ -38,7 +37,7 @@ color: #fff;
     padding: 30px; /* Reduzido o padding */
     margin: 60px 0; /* Reduzido o margin e ajustado para 20px no topo e inferior */
     text-align: center;
-    background-color: #113d72;
+    background-color: #3498db;
     color: #fff;
     cursor: pointer;
     border-radius: 50px;
@@ -47,9 +46,15 @@ color: #fff;
     font-size:x-large;
 }
 
-#qr-code {
+.qr-codes {
+    display: flex;
+    justify-content: space-between; /* Distribui os elementos igualmente no espaço disponível */
     margin-top: 20px;
-    /* Estilo para o QR code */
+}
+
+.qr-code {
+    max-width: 20%; /* Defina o tamanho desejado para os QR codes */
+    margin: 0 10px; /* Adiciona um espaço entre os QR codes */
 }
 
 .logo-img {
@@ -64,7 +69,7 @@ color: #fff;
     position: fixed;
     bottom: 20px;
     left: 20px;
-    background-color: #113d72;
+    background-color: #3498db;
     padding: 10px;
     border-radius: 5px;
     text-decoration: none;
@@ -83,7 +88,7 @@ color: #fff;
     position: fixed;
     bottom: 20px;
     right: 20px;
-    background-color: #113d72;
+    background-color: #3498db;
     padding: 10px;
     border-radius: 5px;
     text-decoration: none;
