@@ -53,7 +53,7 @@ color: #fff;
 }
 
 .qr-code {
-    max-width: 25%; /* Defina o tamanho desejado para os QR codes */
+    max-width: 30%; /* Defina o tamanho desejado para os QR codes */
     margin: 0 10px; /* Adiciona um espaço entre os QR codes */
 }
 
