@@ -1,3 +1,6 @@
+html {
+background-color: #3498db;
+}
 
 body {
     font-family: Arial, sans-serif;
@@ -25,12 +28,12 @@ main {
 }
 
 main p {
-color: #052e6f;
+color: #fff;
 }
 
 .state {
     cursor: default;
-    fill: #3498db;
+    fill: #113d72;
 }
 
     .state:hover {
@@ -50,7 +53,7 @@ color: #052e6f;
     position: fixed;
     bottom: 20px;
     left: 20px;
-    background-color: #3498db;
+    background-color: #113d72;
     padding: 10px;
     border-radius: 5px;
     text-decoration: none;
@@ -68,7 +71,7 @@ color: #052e6f;
     position: fixed;
     bottom: 20px;
     right: 20px;
-    background-color: #3498db;
+    background-color: #113d72;
     padding: 10px;
     border-radius: 5px;
     text-decoration: none;
