@@ -35,7 +35,7 @@ color: #fff;
 .menu-button {
     width: 40%; /* Alterado para ocupar 100% da largura */
     padding: 30px; /* Reduzido o padding */
-    margin: 60px 0; /* Reduzido o margin e ajustado para 20px no topo e inferior */
+    margin: 40px 0; /* Reduzido o margin e ajustado para 20px no topo e inferior */
     text-align: center;
     background-color: #3498db;
     color: #fff;
