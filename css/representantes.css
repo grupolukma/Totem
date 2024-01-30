@@ -1,6 +1,6 @@
-html {
+/* html {
 background-color: #fff;
-}
+} */
 
 body {
     font-family: Arial, sans-serif;
@@ -30,16 +30,6 @@ main {
 main p {
 color: #fff;
 }
-
-.state {
-    cursor: default;
-    fill: #113d72;
-}
-
-    .state:hover {
-        fill: #0f28b6;
-        transition: 0.1s linear;
-    }
 
 .logo-img2 {
     max-width: 40%; /* Alterado para ocupar 100% da largura */

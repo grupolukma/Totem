@@ -44,7 +44,7 @@
 }
 #svg-map a:hover path{ 
 	transition-duration:0.4s;
-	fill:#0f28b6!important ;
+	fill:#113d72!important ;
 }
 #svg-map a circle{ 
 	stroke:rgba(0,0,0,0.274);
@@ -54,6 +54,6 @@
 }
 #svg-map a:hover circle{
 	transition-duration:0.4s;
-	fill:#0f28b6 !important;
+	fill:#113d72 !important;
 	stroke:rgba(0, 0, 0, 0.274);
 }

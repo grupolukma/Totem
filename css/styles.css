@@ -29,7 +29,7 @@ main {
 }
 
 main p {
-color: #fff;
+color: #113d72;
 }
 
 .menu-button {
@@ -37,7 +37,7 @@ color: #fff;
     padding: 30px; /* Reduzido o padding */
     margin: 40px 0; /* Reduzido o margin e ajustado para 20px no topo e inferior */
     text-align: center;
-    background-color: #3498db;
+    background-color: #113d72;
     color: #fff;
     cursor: pointer;
     border-radius: 50px;
@@ -69,14 +69,14 @@ color: #fff;
     position: fixed;
     bottom: 20px;
     left: 20px;
-    background-color: #3498db;
+    background-color: #113d72;
     padding: 10px;
     border-radius: 5px;
     text-decoration: none;
     color: #fff;
     display: flex;
     align-items: center;
-    border: 2px solid #fff;
+    /* border: 2px solid #fff; */
 }
 
 .back-button img {
@@ -88,14 +88,14 @@ color: #fff;
     position: fixed;
     bottom: 20px;
     right: 20px;
-    background-color: #3498db;
+    background-color: #113d72;
     padding: 10px;
     border-radius: 5px;
     text-decoration: none;
     color: #fff;
     display: flex;
     align-items: center;
-    border: 2px solid #fff;
+    /* border: 2px solid #fff; */
 }
 
 .home-button img {
