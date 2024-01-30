@@ -1,6 +1,6 @@
 const images = [
-    '../img/memoria/image1.png', '../img/memoria/image2.png', '../img/memoria/image3.png', '../img/memoria/image4.png', '../img/memoria/image5.png', '../img/memoria/image6.png', '../img/memoria/image7.png', '../img/memoria/image8.png', '../img/memoria/image9.png', '../img/memoria/image10.png', '../img/memoria/image11.png', '../img/memoria/image12.png',
-    '../img/memoria/image1.png', '../img/memoria/image2.png', '../img/memoria/image3.png', '../img/memoria/image4.png', '../img/memoria/image5.png', '../img/memoria/image6.png', '../img/memoria/image7.png', '../img/memoria/image8.png', '../img/memoria/image9.png', '../img/memoria/image10.png', '../img/memoria/image11.png', '../img/memoria/image12.png'
+    'image1.png', 'image2.png', 'image3.png', 'image4.png', 'image5.png', 'image6.png', 'image7.png', 'image8.png', 'image9.png', 'image10.png', 'image11.png', 'image12.png',
+    'image1.png', 'image2.png', 'image3.png', 'image4.png', 'image5.png', 'image6.png', 'image7.png', 'image8.png', 'image9.png', 'image10.png', 'image11.png', 'image12.png'
 ];
 
 
@@ -20,7 +20,7 @@ const images = [
     card.innerHTML = `
         <div class="card" onclick="flipCard(this, ${index})">
             <div class="card-front">
-                <img src="../img/memoria/capa.png" alt="Card Back">
+                <img src="capa.png" alt="Card Back">
             </div>
             <div class="card-back">
                 <img src="${image}" alt="Card Image">
