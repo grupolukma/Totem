@@ -7,8 +7,8 @@
 } */
 
         .memory-card {
-            width: 180px;
-            height: 180px;
+            width: 140px;
+            height: 140px;
             perspective: 1000px;
             cursor: pointer;
             border: 1px solid #000000; /* Adicione esta linha para definir a borda */
