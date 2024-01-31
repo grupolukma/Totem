@@ -96,3 +96,35 @@
     font-size: 16px;
     cursor: pointer;
 }
+
+@media (max-width: 768px) {
+    .memory-card {
+        width: 80px;
+        height: 80px;
+    }
+
+    .card img {
+        border-radius: 5%;
+    }
+
+    #game-board {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    #congrats-message,
+    #play-again-btn {
+        font-size: 16px;
+    }
+}
+
+/* Adiciona outra media query para telas ainda menores, como smartphones em modo retrato */
+@media (max-width: 480px) {
+    .memory-card {
+        width: 60px;
+        height: 60px;
+    }
+
+    #game-board {
+        grid-template-columns: 1fr;
+    }
+}
