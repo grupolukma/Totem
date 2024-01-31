@@ -97,34 +97,19 @@
     cursor: pointer;
 }
 
-@media (max-width: 768px) {
+@media only screen and (max-width: 600px) {
+    /* Adicione estilos específicos para dispositivos com largura de tela menor que 600px */
     .memory-card {
-        width: 80px;
-        height: 80px;
-    }
-
-    .card img {
-        border-radius: 5%;
+        width: 20%;
+        height: 20%;
     }
 
     #game-board {
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(4, 1fr);
+        grid-gap: 5px;
     }
 
-    #congrats-message,
-    #play-again-btn {
-        font-size: 16px;
-    }
-}
-
-/* Adiciona outra media query para telas ainda menores, como smartphones em modo retrato */
-@media (max-width: 480px) {
-    .memory-card {
-        width: 60px;
-        height: 60px;
-    }
-
-    #game-board {
-        grid-template-columns: 1fr;
+    #game-container {
+        padding: 5px;
     }
 }
