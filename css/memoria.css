@@ -7,9 +7,9 @@
 } */
 
         .memory-card {
-            width: 50%;
-            height: 50%;
-            perspective: 1000px;
+            width: 80%;
+            height: 80%;
+            /* perspective: 1000px; */
             cursor: pointer;
             border: 1px solid #000000; /* Adicione esta linha para definir a borda */
             border-radius: 10%;
@@ -100,8 +100,8 @@
 @media only screen and (max-width: 600px) {
     /* Adicione estilos específicos para dispositivos com largura de tela menor que 600px */
     .memory-card {
-        width: 40%;
-        height: 40%;
+        width: 60%;
+        height: 60%;
     }
 
     #game-board {
