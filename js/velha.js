@@ -37,9 +37,9 @@ document.addEventListener('DOMContentLoaded', () => {
 
             if (winner) {
                 if (winner === 'tie') {
-                    message.textContent = 'Empate!';
+                    message.textContent = 'DEU VELHA!';
                 } else {
-                    message.innerHTML = `<img src="${winner}.png" alt="${winner}"> venceu!`;
+                    message.innerHTML = `<img src="${winner}.png" alt="${winner}"> VENCEU!`;
                 }
                 gameOver = true;
             } else {
