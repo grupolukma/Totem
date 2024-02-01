@@ -42,16 +42,20 @@
         }
 
         #congrats-message {
-            display: none;
-            font-size: 20px;
-            margin-top: 20px;
+            font-family: Arial, sans-serif;
+            margin: 20px 0 0; /* Adicionando margem superior para separar da borda do game-container */
+            padding: 0;
+            position: relative;
+            text-align: center; /* Alinha o texto no centro */
+            color: #113d72;
+            font-weight: bold;
         }
 
         #play-again-btn {
-            display: none;
             padding: 10px;
             font-size: 16px;
             cursor: pointer;
+            margin-bottom: 10px; /* Adiciona margem inferior ao botão */
         }
 
 .card-inner {
