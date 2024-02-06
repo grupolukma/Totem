@@ -25,7 +25,7 @@
     /* background-color: rgba(192, 190, 190, 0.7); */
     background-image: url('../img/logo.png');
     background-size: cover;
-    border-radius: 50%;
+    /* border-radius: 50%; */
     bottom: -3rem;
     height: 3rem;
     width: 3rem;
@@ -40,6 +40,8 @@
     -webkit-animation-delay: 1043ms;
             animation-delay: 1043ms;
     left: 11%;
+    background-image: url('../img/disj.png');
+    background-size: cover;
   }
   .bottom-bubbles .bubble:nth-child(2) {
     -webkit-animation: blow 11672ms infinite;
@@ -47,6 +49,8 @@
     -webkit-animation-delay: 5762ms;
             animation-delay: 5762ms;
     left: 31%;
+    background-image: url('../img/disj.png');
+    background-size: cover;
   }
   .bottom-bubbles .bubble:nth-child(3) {
     -webkit-animation: blow 14690ms infinite;
@@ -54,6 +58,8 @@
     -webkit-animation-delay: 2064ms;
             animation-delay: 2064ms;
     left: 61%;
+    background-image: url('../img/disj.png');
+    background-size: cover;
   }
   .bottom-bubbles .bubble:nth-child(4) {
     -webkit-animation: blow 5743ms infinite;
@@ -61,6 +67,8 @@
     -webkit-animation-delay: 3249ms;
             animation-delay: 3249ms;
     left: 1%;
+    background-image: url('../img/disj.png');
+    background-size: cover;
   }
   .bottom-bubbles .bubble:nth-child(5) {
     -webkit-animation: blow 13802ms infinite;
@@ -68,6 +76,8 @@
     -webkit-animation-delay: 7108ms;
             animation-delay: 7108ms;
     left: 51%;
+    background-image: url('../img/disj.png');
+    background-size: cover;
   }
   .bottom-bubbles .bubble:nth-child(6) {
     -webkit-animation: blow 7049ms infinite;
@@ -75,6 +85,8 @@
     -webkit-animation-delay: 9806ms;
             animation-delay: 9806ms;
     left: 23%;
+    background-image: url('../img/disj.png');
+    background-size: cover;
   }
   .bottom-bubbles .bubble:nth-child(7) {
     -webkit-animation: blow 5000ms infinite;
@@ -82,6 +94,8 @@
     -webkit-animation-delay: 5665ms;
             animation-delay: 5665ms;
     left: 39%;
+    background-image: url('../img/disj.png');
+    background-size: cover;
   }
   .bottom-bubbles .bubble:nth-child(8) {
     -webkit-animation: blow 14042ms infinite;
@@ -89,6 +103,8 @@
     -webkit-animation-delay: 7859ms;
             animation-delay: 7859ms;
     left: 25%;
+    background-image: url('../img/disj.png');
+    background-size: cover;
   }
   .bottom-bubbles .bubble:nth-child(9) {
     -webkit-animation: blow 9988ms infinite;
@@ -96,6 +112,8 @@
     -webkit-animation-delay: 11027ms;
             animation-delay: 11027ms;
     left: 6%;
+    background-image: url('../img/disj.png');
+    background-size: cover;
   }
   .bottom-bubbles .bubble:nth-child(10) {
     -webkit-animation: blow 14913ms infinite;
@@ -103,6 +121,8 @@
     -webkit-animation-delay: 8969ms;
             animation-delay: 8969ms;
     left: 6%;
+    background-image: url('../img/disj.png');
+    background-size: cover;
   }
   .bottom-bubbles .bubble:nth-child(11) {
     -webkit-animation: blow 5384ms infinite;
@@ -110,6 +130,8 @@
     -webkit-animation-delay: 9918ms;
             animation-delay: 9918ms;
     left: 42%;
+    background-image: url('../img/rele.png');
+    background-size: cover;
   }
   .bottom-bubbles .bubble:nth-child(12) {
     -webkit-animation: blow 11312ms infinite;
@@ -117,6 +139,8 @@
     -webkit-animation-delay: 4439ms;
             animation-delay: 4439ms;
     left: 7%;
+    background-image: url('../img/rele.png');
+    background-size: cover;
   }
   .bottom-bubbles .bubble:nth-child(13) {
     -webkit-animation: blow 7434ms infinite;
@@ -124,6 +148,8 @@
     -webkit-animation-delay: 7859ms;
             animation-delay: 7859ms;
     left: 33%;
+    background-image: url('../img/rele.png');
+    background-size: cover;
   }
   .bottom-bubbles .bubble:nth-child(14) {
     -webkit-animation: blow 5033ms infinite;
@@ -131,6 +157,8 @@
     -webkit-animation-delay: 1413ms;
             animation-delay: 1413ms;
     left: 90%;
+    background-image: url('../img/rele.png');
+    background-size: cover;
   }
   .bottom-bubbles .bubble:nth-child(15) {
     -webkit-animation: blow 13984ms infinite;
@@ -138,6 +166,8 @@
     -webkit-animation-delay: 10446ms;
             animation-delay: 10446ms;
     left: 73%;
+    background-image: url('../img/rele.png');
+    background-size: cover;
   }
   .bottom-bubbles .bubble:nth-child(16) {
     -webkit-animation: blow 11039ms infinite;
@@ -145,6 +175,8 @@
     -webkit-animation-delay: 7224ms;
             animation-delay: 7224ms;
     left: 63%;
+    background-image: url('../img/rele.png');
+    background-size: cover;
   }
   .bottom-bubbles .bubble:nth-child(17) {
     -webkit-animation: blow 9792ms infinite;
@@ -152,6 +184,8 @@
     -webkit-animation-delay: 11322ms;
             animation-delay: 11322ms;
     left: 5%;
+    background-image: url('../img/rele.png');
+    background-size: cover;
   }
   .bottom-bubbles .bubble:nth-child(18) {
     -webkit-animation: blow 5000ms infinite;
@@ -159,6 +193,8 @@
     -webkit-animation-delay: 6382ms;
             animation-delay: 6382ms;
     left: 55%;
+    background-image: url('../img/rele.png');
+    background-size: cover;
   }
   .bottom-bubbles .bubble:nth-child(19) {
     -webkit-animation: blow 10796ms infinite;
@@ -166,6 +202,8 @@
     -webkit-animation-delay: 4501ms;
             animation-delay: 4501ms;
     left: 2%;
+    background-image: url('../img/rele.png');
+    background-size: cover;
   }
   .bottom-bubbles .bubble:nth-child(20) {
     -webkit-animation: blow 9123ms infinite;
@@ -173,6 +211,8 @@
     -webkit-animation-delay: 9741ms;
             animation-delay: 9741ms;
     left: 65%;
+    background-image: url('../img/rele.png');
+    background-size: cover;
   }
   .bottom-bubbles .bubble:nth-child(21) {
     -webkit-animation: blow 12695ms infinite;
@@ -180,6 +220,8 @@
     -webkit-animation-delay: 803ms;
             animation-delay: 803ms;
     left: 32%;
+    background-image: url('../img/furador.png');
+    background-size: cover;
   }
   .bottom-bubbles .bubble:nth-child(22) {
     -webkit-animation: blow 8369ms infinite;
@@ -187,6 +229,8 @@
     -webkit-animation-delay: 7271ms;
             animation-delay: 7271ms;
     left: 57%;
+    background-image: url('../img/furador.png');
+    background-size: cover;
   }
   .bottom-bubbles .bubble:nth-child(23) {
     -webkit-animation: blow 5000ms infinite;
@@ -194,6 +238,8 @@
     -webkit-animation-delay: 9299ms;
             animation-delay: 9299ms;
     left: 65%;
+    background-image: url('../img/furador.png');
+    background-size: cover;
   }
   .bottom-bubbles .bubble:nth-child(24) {
     -webkit-animation: blow 5000ms infinite;
@@ -201,6 +247,8 @@
     -webkit-animation-delay: 3738ms;
             animation-delay: 3738ms;
     left: 24%;
+    background-image: url('../img/furador.png');
+    background-size: cover;
   }
   .bottom-bubbles .bubble:nth-child(25) {
     -webkit-animation: blow 5000ms infinite;
@@ -208,6 +256,8 @@
     -webkit-animation-delay: 5976ms;
             animation-delay: 5976ms;
     left: 55%;
+    background-image: url('../img/furador.png');
+    background-size: cover;
   }
   .bottom-bubbles .bubble:nth-child(26) {
     -webkit-animation: blow 5000ms infinite;
@@ -215,6 +265,8 @@
     -webkit-animation-delay: 78ms;
             animation-delay: 78ms;
     left: 31%;
+    background-image: url('../img/furador.png');
+    background-size: cover;
   }
   .bottom-bubbles .bubble:nth-child(27) {
     -webkit-animation: blow 10509ms infinite;
@@ -222,6 +274,8 @@
     -webkit-animation-delay: 5864ms;
             animation-delay: 5864ms;
     left: 10%;
+    background-image: url('../img/furador.png');
+    background-size: cover;
   }
   .bottom-bubbles .bubble:nth-child(28) {
     -webkit-animation: blow 5000ms infinite;
@@ -229,6 +283,8 @@
     -webkit-animation-delay: 11391ms;
             animation-delay: 11391ms;
     left: 18%;
+    background-image: url('../img/furador.png');
+    background-size: cover;
   }
   .bottom-bubbles .bubble:nth-child(29) {
     -webkit-animation: blow 5000ms infinite;
@@ -236,6 +292,8 @@
     -webkit-animation-delay: 7415ms;
             animation-delay: 7415ms;
     left: 89%;
+    background-image: url('../img/furador.png');
+    background-size: cover;
   }
   .bottom-bubbles .bubble:nth-child(30) {
     -webkit-animation: blow 8289ms infinite;
@@ -243,6 +301,8 @@
     -webkit-animation-delay: 11478ms;
             animation-delay: 11478ms;
     left: 14%;
+    background-image: url('../img/furador.png');
+    background-size: cover;
   }
   .bottom-bubbles .bubble:nth-child(31) {
     -webkit-animation: blow 5000ms infinite;
@@ -250,6 +310,8 @@
     -webkit-animation-delay: 9210ms;
             animation-delay: 9210ms;
     left: 13%;
+    background-image: url('../img/bombas.png');
+    background-size: cover;
   }
   .bottom-bubbles .bubble:nth-child(32) {
     -webkit-animation: blow 5000ms infinite;
@@ -257,6 +319,8 @@
     -webkit-animation-delay: 8995ms;
             animation-delay: 8995ms;
     left: 96%;
+    background-image: url('../img/bombas.png');
+    background-size: cover;
   }
   .bottom-bubbles .bubble:nth-child(33) {
     -webkit-animation: blow 5000ms infinite;
@@ -264,6 +328,8 @@
     -webkit-animation-delay: 1720ms;
             animation-delay: 1720ms;
     left: 3%;
+    background-image: url('../img/bombas.png');
+    background-size: cover;
   }
   .bottom-bubbles .bubble:nth-child(34) {
     -webkit-animation: blow 10817ms infinite;
@@ -271,6 +337,8 @@
     -webkit-animation-delay: 10981ms;
             animation-delay: 10981ms;
     left: 44%;
+    background-image: url('../img/bombas.png');
+    background-size: cover;
   }
   .bottom-bubbles .bubble:nth-child(35) {
     -webkit-animation: blow 5000ms infinite;
@@ -278,6 +346,8 @@
     -webkit-animation-delay: 8984ms;
             animation-delay: 8984ms;
     left: 36%;
+    background-image: url('../img/bombas.png');
+    background-size: cover;
   }
   .bottom-bubbles .bubble:nth-child(36) {
     -webkit-animation: blow 7220ms infinite;
@@ -285,6 +355,8 @@
     -webkit-animation-delay: 1744ms;
             animation-delay: 1744ms;
     left: 11%;
+    background-image: url('../img/bombas.png');
+    background-size: cover;
   }
   .bottom-bubbles .bubble:nth-child(37) {
     -webkit-animation: blow 10108ms infinite;
@@ -292,6 +364,8 @@
     -webkit-animation-delay: 2631ms;
             animation-delay: 2631ms;
     left: 94%;
+    background-image: url('../img/bombas.png');
+    background-size: cover;
   }
   .bottom-bubbles .bubble:nth-child(38) {
     -webkit-animation: blow 10553ms infinite;
@@ -299,6 +373,8 @@
     -webkit-animation-delay: 2483ms;
             animation-delay: 2483ms;
     left: 71%;
+    background-image: url('../img/bombas.png');
+    background-size: cover;
   }
   .bottom-bubbles .bubble:nth-child(39) {
     -webkit-animation: blow 13268ms infinite;
@@ -306,6 +382,8 @@
     -webkit-animation-delay: 7511ms;
             animation-delay: 7511ms;
     left: 64%;
+    background-image: url('../img/bombas.png');
+    background-size: cover;
   }
   .bottom-bubbles .bubble:nth-child(40) {
     -webkit-animation: blow 7532ms infinite;
@@ -313,6 +391,8 @@
     -webkit-animation-delay: 5618ms;
             animation-delay: 5618ms;
     left: 5%;
+    background-image: url('../img/bombas.png');
+    background-size: cover;
   }
   .bottom-bubbles .bubble:nth-child(41) {
     -webkit-animation: blow 5000ms infinite;
@@ -320,6 +400,8 @@
     -webkit-animation-delay: 850ms;
             animation-delay: 850ms;
     left: 22%;
+    background-image: url('../img/quadrorobo.png');
+    background-size: cover;
   }
   .bottom-bubbles .bubble:nth-child(42) {
     -webkit-animation: blow 6433ms infinite;
@@ -327,6 +409,8 @@
     -webkit-animation-delay: 2535ms;
             animation-delay: 2535ms;
     left: 43%;
+    background-image: url('../img/quadrorobo.png');
+    background-size: cover;
   }
   .bottom-bubbles .bubble:nth-child(43) {
     -webkit-animation: blow 6385ms infinite;
@@ -334,6 +418,8 @@
     -webkit-animation-delay: 1706ms;
             animation-delay: 1706ms;
     left: 9%;
+    background-image: url('../img/quadrorobo.png');
+    background-size: cover;
   }
   .bottom-bubbles .bubble:nth-child(44) {
     -webkit-animation: blow 5000ms infinite;
@@ -341,6 +427,8 @@
     -webkit-animation-delay: 828ms;
             animation-delay: 828ms;
     left: 36%;
+    background-image: url('../img/quadrorobo.png');
+    background-size: cover;
   }
   .bottom-bubbles .bubble:nth-child(45) {
     -webkit-animation: blow 5000ms infinite;
@@ -348,6 +436,8 @@
     -webkit-animation-delay: 7805ms;
             animation-delay: 7805ms;
     left: 85%;
+    background-image: url('../img/quadrorobo.png');
+    background-size: cover;
   }
   .bottom-bubbles .bubble:nth-child(46) {
     -webkit-animation: blow 10749ms infinite;
@@ -355,6 +445,8 @@
     -webkit-animation-delay: 3753ms;
             animation-delay: 3753ms;
     left: 52%;
+    background-image: url('../img/quadrorobo.png');
+    background-size: cover;
   }
   .bottom-bubbles .bubble:nth-child(47) {
     -webkit-animation: blow 5409ms infinite;
@@ -362,6 +454,8 @@
     -webkit-animation-delay: 8653ms;
             animation-delay: 8653ms;
     left: 23%;
+    background-image: url('../img/quadrorobo.png');
+    background-size: cover;
   }
   .bottom-bubbles .bubble:nth-child(48) {
     -webkit-animation: blow 5000ms infinite;
@@ -369,6 +463,8 @@
     -webkit-animation-delay: 10267ms;
             animation-delay: 10267ms;
     left: 27%;
+    background-image: url('../img/quadrorobo.png');
+    background-size: cover;
   }
   .bottom-bubbles .bubble:nth-child(49) {
     -webkit-animation: blow 11404ms infinite;
@@ -376,6 +472,8 @@
     -webkit-animation-delay: 8869ms;
             animation-delay: 8869ms;
     left: 56%;
+    background-image: url('../img/quadrorobo.png');
+    background-size: cover;
   }
   .bottom-bubbles .bubble:nth-child(50) {
     -webkit-animation: blow 5000ms infinite;
@@ -383,6 +481,8 @@
     -webkit-animation-delay: 2578ms;
             animation-delay: 2578ms;
     left: 61%;
+    background-image: url('../img/quadrorobo.png');
+    background-size: cover;
   }
   .bottom-bubbles .bubble:nth-child(51) {
     -webkit-animation: blow 5000ms infinite;
@@ -390,6 +490,8 @@
     -webkit-animation-delay: 11732ms;
             animation-delay: 11732ms;
     left: 56%;
+    background-image: url('../img/medicao.png');
+    background-size: cover;
   }
   .bottom-bubbles .bubble:nth-child(52) {
     -webkit-animation: blow 6628ms infinite;
@@ -397,6 +499,8 @@
     -webkit-animation-delay: 5630ms;
             animation-delay: 5630ms;
     left: 54%;
+    background-image: url('../img/medicao.png');
+    background-size: cover;
   }
   .bottom-bubbles .bubble:nth-child(53) {
     -webkit-animation: blow 6109ms infinite;
@@ -404,6 +508,8 @@
     -webkit-animation-delay: 10134ms;
             animation-delay: 10134ms;
     left: 49%;
+    background-image: url('../img/medicao.png');
+    background-size: cover;
   }
   .bottom-bubbles .bubble:nth-child(54) {
     -webkit-animation: blow 5883ms infinite;
@@ -411,6 +517,8 @@
     -webkit-animation-delay: 9035ms;
             animation-delay: 9035ms;
     left: 54%;
+    background-image: url('../img/medicao.png');
+    background-size: cover;
   }
   .bottom-bubbles .bubble:nth-child(55) {
     -webkit-animation: blow 8676ms infinite;
@@ -418,6 +526,8 @@
     -webkit-animation-delay: 1293ms;
             animation-delay: 1293ms;
     left: 12%;
+    background-image: url('../img/medicao.png');
+    background-size: cover;
   }
   .bottom-bubbles .bubble:nth-child(56) {
     -webkit-animation: blow 14566ms infinite;
@@ -425,6 +535,8 @@
     -webkit-animation-delay: 10262ms;
             animation-delay: 10262ms;
     left: 24%;
+    background-image: url('../img/medicao.png');
+    background-size: cover;
   }
   .bottom-bubbles .bubble:nth-child(57) {
     -webkit-animation: blow 5000ms infinite;
@@ -432,6 +544,8 @@
     -webkit-animation-delay: 3477ms;
             animation-delay: 3477ms;
     left: 77%;
+    background-image: url('../img/medicao.png');
+    background-size: cover;
   }
   .bottom-bubbles .bubble:nth-child(58) {
     -webkit-animation: blow 5000ms infinite;
@@ -439,6 +553,8 @@
     -webkit-animation-delay: 6264ms;
             animation-delay: 6264ms;
     left: 44%;
+    background-image: url('../img/medicao.png');
+    background-size: cover;
   }
   .bottom-bubbles .bubble:nth-child(59) {
     -webkit-animation: blow 5000ms infinite;
@@ -446,6 +562,8 @@
     -webkit-animation-delay: 10409ms;
             animation-delay: 10409ms;
     left: 60%;
+    background-image: url('../img/medicao.png');
+    background-size: cover;
   }
   .bottom-bubbles .bubble:nth-child(60) {
     -webkit-animation: blow 11696ms infinite;
@@ -453,6 +571,8 @@
     -webkit-animation-delay: 4431ms;
             animation-delay: 4431ms;
     left: 88%;
+    background-image: url('../img/medicao.png');
+    background-size: cover;
   }
   .bottom-bubbles .bubble:nth-child(61) {
     -webkit-animation: blow 5456ms infinite;
@@ -734,7 +854,7 @@
             animation-delay: 4863ms;
     left: 52%;
   }
-  .bottom-bubbles .bubble:nth-child(101) {
+  /* .bottom-bubbles .bubble:nth-child(101) {
     -webkit-animation: blow 10281ms infinite;
             animation: blow 10281ms infinite;
     -webkit-animation-delay: 4081ms;
@@ -1433,7 +1553,7 @@
     -webkit-animation-delay: 10348ms;
             animation-delay: 10348ms;
     left: 30%;
-  }
+  } */
   
   @-webkit-keyframes blow {
     0% {
