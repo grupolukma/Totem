@@ -1032,6 +1032,10 @@
     -webkit-animation-delay: 2909ms;
             animation-delay: 2909ms;
     left: 88%;
+    background-image: url('../img/bolhas/montagem.png');
+    background-size: contain;
+    background-repeat: no-repeat; 
+    background-position: center;
   }
   .bottom-bubbles .bubble:nth-child(92) {
     -webkit-animation: blow 14184ms infinite;
@@ -1039,6 +1043,10 @@
     -webkit-animation-delay: 4957ms;
             animation-delay: 4957ms;
     left: 86%;
+    background-image: url('../img/bolhas/montagem.png');
+    background-size: contain;
+    background-repeat: no-repeat; 
+    background-position: center;
   }
   .bottom-bubbles .bubble:nth-child(93) {
     -webkit-animation: blow 5000ms infinite;
@@ -1046,6 +1054,10 @@
     -webkit-animation-delay: 359ms;
             animation-delay: 359ms;
     left: 61%;
+    background-image: url('../img/bolhas/montagem.png');
+    background-size: contain;
+    background-repeat: no-repeat; 
+    background-position: center;
   }
   .bottom-bubbles .bubble:nth-child(94) {
     -webkit-animation: blow 12635ms infinite;
@@ -1053,6 +1065,10 @@
     -webkit-animation-delay: 5696ms;
             animation-delay: 5696ms;
     left: 35%;
+    background-image: url('../img/bolhas/montagem.png');
+    background-size: contain;
+    background-repeat: no-repeat; 
+    background-position: center;
   }
   .bottom-bubbles .bubble:nth-child(95) {
     -webkit-animation: blow 7898ms infinite;
@@ -1060,6 +1076,10 @@
     -webkit-animation-delay: 6842ms;
             animation-delay: 6842ms;
     left: 44%;
+    background-image: url('../img/bolhas/montagem.png');
+    background-size: contain;
+    background-repeat: no-repeat; 
+    background-position: center;
   }
   .bottom-bubbles .bubble:nth-child(96) {
     -webkit-animation: blow 7832ms infinite;
@@ -1067,6 +1087,10 @@
     -webkit-animation-delay: 3984ms;
             animation-delay: 3984ms;
     left: 18%;
+    background-image: url('../img/bolhas/montagem.png');
+    background-size: contain;
+    background-repeat: no-repeat; 
+    background-position: center;
   }
   .bottom-bubbles .bubble:nth-child(97) {
     -webkit-animation: blow 5000ms infinite;
@@ -1074,6 +1098,10 @@
     -webkit-animation-delay: 1100ms;
             animation-delay: 1100ms;
     left: 38%;
+    background-image: url('../img/bolhas/montagem.png');
+    background-size: contain;
+    background-repeat: no-repeat; 
+    background-position: center;
   }
   .bottom-bubbles .bubble:nth-child(98) {
     -webkit-animation: blow 6543ms infinite;
@@ -1081,6 +1109,10 @@
     -webkit-animation-delay: 2167ms;
             animation-delay: 2167ms;
     left: 32%;
+    background-image: url('../img/bolhas/montagem.png');
+    background-size: contain;
+    background-repeat: no-repeat; 
+    background-position: center;
   }
   .bottom-bubbles .bubble:nth-child(99) {
     -webkit-animation: blow 5000ms infinite;
@@ -1088,6 +1120,10 @@
     -webkit-animation-delay: 7521ms;
             animation-delay: 7521ms;
     left: 23%;
+    background-image: url('../img/bolhas/montagem.png');
+    background-size: contain;
+    background-repeat: no-repeat; 
+    background-position: center;
   }
   .bottom-bubbles .bubble:nth-child(100) {
     -webkit-animation: blow 6673ms infinite;
@@ -1095,6 +1131,10 @@
     -webkit-animation-delay: 4863ms;
             animation-delay: 4863ms;
     left: 52%;
+    background-image: url('../img/bolhas/montagem.png');
+    background-size: contain;
+    background-repeat: no-repeat; 
+    background-position: center;
   }
   
   @-webkit-keyframes blow {
@@ -1103,7 +1143,7 @@
       transform: translate(0, 0);
     }
     20% {
-      opacity: 0.6;
+      opacity: 0.5;
     }
     100% {
       opacity: 0;
@@ -1117,7 +1157,7 @@
       transform: translate(0, 0);
     }
     20% {
-        opacity: 0.6;
+        opacity: 0.5;
     }
     100% {
       opacity: 0;
