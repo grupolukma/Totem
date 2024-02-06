@@ -28,8 +28,8 @@ main {
 }
 
 main p {
-color: #fff;
-}
+    color: #113d72;
+    }
 
 .logo-img2 {
     max-width: 40%; /* Alterado para ocupar 100% da largura */
