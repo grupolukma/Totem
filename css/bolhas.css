@@ -26,9 +26,9 @@
     background-image: url('../img/logo.png');
     background-size: cover;
     border-radius: 50%;
-    bottom: -10rem;
-    height: 10rem;
-    width: 10rem;
+    bottom: -5rem;
+    height: 5rem;
+    width: 5rem;
     opacity: 0.5;
     position: absolute;
   }
