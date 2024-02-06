@@ -19,6 +19,7 @@
     left: 0;
     position: absolute;
     width: 100%;
+    z-index: 1;
   }
   .bottom-bubbles .bubble {
     background-color: rgba(136, 209, 243, 0.7);
@@ -28,6 +29,7 @@
     width: 3rem;
     opacity: 0;
     position: absolute;
+    z-index: 0;
   }
   .bottom-bubbles .bubble:nth-child(1) {
     -webkit-animation: blow 14228ms infinite;
