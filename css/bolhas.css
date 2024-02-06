@@ -1137,115 +1137,115 @@
     background-position: center;
   }
   .bottom-bubbles .bubble:nth-child(101) {
-        -webkit-animation: blow 10281ms infinite;
-                animation: blow 10281ms infinite;
-        -webkit-animation-delay: 4081ms;
-                animation-delay: 4081ms;
-        left: 68%;
-        background-image: url('../img/bolhas/centro.png');
-        background-size: contain;
-        background-repeat: no-repeat; 
-        background-position: center;
-      }
-      .bottom-bubbles .bubble:nth-child(102) {
-        -webkit-animation: blow 5000ms infinite;
-                animation: blow 5000ms infinite;
-        -webkit-animation-delay: 5821ms;
-                animation-delay: 5821ms;
-        left: 26%;
-        background-image: url('../img/bolhas/centro.png');
-        background-size: contain;
-        background-repeat: no-repeat; 
-        background-position: center;
-      }
-      .bottom-bubbles .bubble:nth-child(103) {
-        -webkit-animation: blow 5000ms infinite;
-                animation: blow 5000ms infinite;
-        -webkit-animation-delay: 5207ms;
-                animation-delay: 5207ms;
-        left: 38%;
-        background-image: url('../img/bolhas/centro.png');
-        background-size: contain;
-        background-repeat: no-repeat; 
-        background-position: center;
-      }
-      .bottom-bubbles .bubble:nth-child(104) {
-        -webkit-animation: blow 14052ms infinite;
-                animation: blow 14052ms infinite;
-        -webkit-animation-delay: 3043ms;
-                animation-delay: 3043ms;
-        left: 44%;
-        background-image: url('../img/bolhas/centro.png');
-        background-size: contain;
-        background-repeat: no-repeat; 
-        background-position: center;
-      }
-      .bottom-bubbles .bubble:nth-child(105) {
-        -webkit-animation: blow 5000ms infinite;
-                animation: blow 5000ms infinite;
-        -webkit-animation-delay: 3330ms;
-                animation-delay: 3330ms;
-        left: 83%;
-        background-image: url('../img/bolhas/centro.png');
-        background-size: contain;
-        background-repeat: no-repeat; 
-        background-position: center;
-      }
-      .bottom-bubbles .bubble:nth-child(106) {
-        -webkit-animation: blow 8894ms infinite;
-                animation: blow 8894ms infinite;
-        -webkit-animation-delay: 2458ms;
-                animation-delay: 2458ms;
-        left: 62%;
-        background-image: url('../img/bolhas/centro.png');
-        background-size: contain;
-        background-repeat: no-repeat; 
-        background-position: center;
-      }
-      .bottom-bubbles .bubble:nth-child(107) {
-        -webkit-animation: blow 8377ms infinite;
-                animation: blow 8377ms infinite;
-        -webkit-animation-delay: 10481ms;
-                animation-delay: 10481ms;
-        left: 58%;
-        background-image: url('../img/bolhas/centro.png');
-        background-size: contain;
-        background-repeat: no-repeat; 
-        background-position: center;
-      }
-      .bottom-bubbles .bubble:nth-child(108) {
-        -webkit-animation: blow 5000ms infinite;
-                animation: blow 5000ms infinite;
-        -webkit-animation-delay: 6456ms;
-                animation-delay: 6456ms;
-        left: 57%;
-        background-image: url('../img/bolhas/centro.png');
-        background-size: contain;
-        background-repeat: no-repeat; 
-        background-position: center;
-      }
-      .bottom-bubbles .bubble:nth-child(109) {
-        -webkit-animation: blow 5000ms infinite;
-                animation: blow 5000ms infinite;
-        -webkit-animation-delay: 11738ms;
-                animation-delay: 11738ms;
-        left: 85%;
-        background-image: url('../img/bolhas/centro.png');
-        background-size: contain;
-        background-repeat: no-repeat; 
-        background-position: center;
-      }
-      .bottom-bubbles .bubble:nth-child(110) {
-        -webkit-animation: blow 8613ms infinite;
-                animation: blow 8613ms infinite;
-        -webkit-animation-delay: 1952ms;
-                animation-delay: 1952ms;
-        left: 75%;
-        background-image: url('../img/bolhas/centro.png');
-        background-size: contain;
-        background-repeat: no-repeat; 
-        background-position: center;
-      }
+   -webkit-animation: blow 10281ms infinite;
+           animation: blow 10281ms infinite;
+   -webkit-animation-delay: 4081ms;
+           animation-delay: 4081ms;
+   left: 68%;
+   background-image: url('../img/bolhas/centro.png');
+   background-size: contain;
+   background-repeat: no-repeat; 
+   background-position: center;
+  }
+  .bottom-bubbles .bubble:nth-child(102) {
+   -webkit-animation: blow 5000ms infinite;
+           animation: blow 5000ms infinite;
+   -webkit-animation-delay: 5821ms;
+           animation-delay: 5821ms;
+   left: 26%;
+   background-image: url('../img/bolhas/centro.png');
+   background-size: contain;
+   background-repeat: no-repeat; 
+   background-position: center;
+  }
+  .bottom-bubbles .bubble:nth-child(103) {
+   -webkit-animation: blow 5000ms infinite;
+           animation: blow 5000ms infinite;
+   -webkit-animation-delay: 5207ms;
+           animation-delay: 5207ms;
+   left: 38%;
+   background-image: url('../img/bolhas/centro.png');
+   background-size: contain;
+   background-repeat: no-repeat; 
+   background-position: center;
+  }
+  .bottom-bubbles .bubble:nth-child(104) {
+   -webkit-animation: blow 14052ms infinite;
+           animation: blow 14052ms infinite;
+   -webkit-animation-delay: 3043ms;
+           animation-delay: 3043ms;
+   left: 44%;
+   background-image: url('../img/bolhas/centro.png');
+   background-size: contain;
+   background-repeat: no-repeat; 
+   background-position: center;
+  }
+  .bottom-bubbles .bubble:nth-child(105) {
+   -webkit-animation: blow 5000ms infinite;
+           animation: blow 5000ms infinite;
+   -webkit-animation-delay: 3330ms;
+           animation-delay: 3330ms;
+   left: 83%;
+   background-image: url('../img/bolhas/centro.png');
+   background-size: contain;
+   background-repeat: no-repeat; 
+   background-position: center;
+  }
+  .bottom-bubbles .bubble:nth-child(106) {
+   -webkit-animation: blow 8894ms infinite;
+           animation: blow 8894ms infinite;
+   -webkit-animation-delay: 2458ms;
+           animation-delay: 2458ms;
+   left: 62%;
+   background-image: url('../img/bolhas/centro.png');
+   background-size: contain;
+   background-repeat: no-repeat; 
+   background-position: center;
+  }
+  .bottom-bubbles .bubble:nth-child(107) {
+   -webkit-animation: blow 8377ms infinite;
+           animation: blow 8377ms infinite;
+   -webkit-animation-delay: 10481ms;
+           animation-delay: 10481ms;
+   left: 58%;
+   background-image: url('../img/bolhas/centro.png');
+   background-size: contain;
+   background-repeat: no-repeat; 
+   background-position: center;
+  }
+  .bottom-bubbles .bubble:nth-child(108) {
+   -webkit-animation: blow 5000ms infinite;
+           animation: blow 5000ms infinite;
+   -webkit-animation-delay: 6456ms;
+           animation-delay: 6456ms;
+   left: 57%;
+   background-image: url('../img/bolhas/centro.png');
+   background-size: contain;
+   background-repeat: no-repeat; 
+   background-position: center;
+  }
+  .bottom-bubbles .bubble:nth-child(109) {
+   -webkit-animation: blow 5000ms infinite;
+           animation: blow 5000ms infinite;
+   -webkit-animation-delay: 11738ms;
+           animation-delay: 11738ms;
+   left: 85%;
+   background-image: url('../img/bolhas/centro.png');
+   background-size: contain;
+   background-repeat: no-repeat; 
+   background-position: center;
+  }
+  .bottom-bubbles .bubble:nth-child(110) {
+   -webkit-animation: blow 8613ms infinite;
+           animation: blow 8613ms infinite;
+   -webkit-animation-delay: 1952ms;
+           animation-delay: 1952ms;
+   left: 75%;
+   background-image: url('../img/bolhas/centro.png');
+   background-size: contain;
+   background-repeat: no-repeat; 
+   background-position: center;
+  }
       .bottom-bubbles .bubble:nth-child(111) {
         -webkit-animation: blow 5000ms infinite;
                 animation: blow 5000ms infinite;
