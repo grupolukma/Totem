@@ -42,7 +42,7 @@
     -webkit-animation-delay: 1043ms;
             animation-delay: 1043ms;
     left: 11%;
-    background-image: url('../img/bolhas/disj.png');
+    /* background-image: url('../img/bolhas/disj.png'); */
     background-size: contain;
     background-repeat: no-repeat; 
     background-position: center;
@@ -53,7 +53,7 @@
     -webkit-animation-delay: 5762ms;
             animation-delay: 5762ms;
     left: 31%;
-    background-image: url('../img/bolhas/disj.png');
+    /* background-image: url('../img/bolhas/disj.png'); */
     background-size: contain;
     background-repeat: no-repeat; 
     background-position: center;
@@ -64,7 +64,7 @@
     -webkit-animation-delay: 2064ms;
             animation-delay: 2064ms;
     left: 61%;
-    background-image: url('../img/bolhas/disj.png');
+    /* background-image: url('../img/bolhas/disj.png'); */
     background-size: contain;
     background-repeat: no-repeat; 
     background-position: center;
@@ -75,7 +75,7 @@
     -webkit-animation-delay: 3249ms;
             animation-delay: 3249ms;
     left: 1%;
-    background-image: url('../img/bolhas/disj.png');
+    /* background-image: url('../img/bolhas/disj.png'); */
     background-size: contain;
     background-repeat: no-repeat; 
     background-position: center;
@@ -86,7 +86,7 @@
     -webkit-animation-delay: 7108ms;
             animation-delay: 7108ms;
     left: 51%;
-    background-image: url('../img/bolhas/disj.png');
+    /* background-image: url('../img/bolhas/disj.png'); */
     background-size: contain;
     background-repeat: no-repeat; 
     background-position: center;
@@ -97,7 +97,7 @@
     -webkit-animation-delay: 9806ms;
             animation-delay: 9806ms;
     left: 23%;
-    background-image: url('../img/bolhas/disj.png');
+    /* background-image: url('../img/bolhas/disj.png'); */
     background-size: contain;
     background-repeat: no-repeat; 
     background-position: center;
@@ -108,7 +108,7 @@
     -webkit-animation-delay: 5665ms;
             animation-delay: 5665ms;
     left: 39%;
-    background-image: url('../img/bolhas/disj.png');
+    /* background-image: url('../img/bolhas/disj.png'); */
     background-size: contain;
     background-repeat: no-repeat; 
     background-position: center;
@@ -119,7 +119,7 @@
     -webkit-animation-delay: 7859ms;
             animation-delay: 7859ms;
     left: 25%;
-    background-image: url('../img/bolhas/disj.png');
+    /* background-image: url('../img/bolhas/disj.png'); */
     background-size: contain;
     background-repeat: no-repeat; 
     background-position: center;
@@ -130,7 +130,7 @@
     -webkit-animation-delay: 11027ms;
             animation-delay: 11027ms;
     left: 6%;
-    background-image: url('../img/bolhas/disj.png');
+    /* background-image: url('../img/bolhas/disj.png'); */
     background-size: contain;
     background-repeat: no-repeat; 
     background-position: center;
@@ -141,7 +141,7 @@
     -webkit-animation-delay: 8969ms;
             animation-delay: 8969ms;
     left: 6%;
-    background-image: url('../img/bolhas/disj.png');
+    /* background-image: url('../img/bolhas/disj.png'); */
     background-size: contain;
     background-repeat: no-repeat; 
     background-position: center;
@@ -152,7 +152,7 @@
     -webkit-animation-delay: 9918ms;
             animation-delay: 9918ms;
     left: 42%;
-    background-image: url('../img/bolhas/rele.png');
+    /* background-image: url('../img/bolhas/rele.png'); */
     background-size: contain;
     background-repeat: no-repeat; 
     background-position: center;
@@ -163,7 +163,7 @@
     -webkit-animation-delay: 4439ms;
             animation-delay: 4439ms;
     left: 7%;
-    background-image: url('../img/bolhas/rele.png');
+    /* background-image: url('../img/bolhas/rele.png'); */
     background-size: contain;
     background-repeat: no-repeat; 
     background-position: center;
@@ -174,7 +174,7 @@
     -webkit-animation-delay: 7859ms;
             animation-delay: 7859ms;
     left: 33%;
-    background-image: url('../img/bolhas/rele.png');
+    /* background-image: url('../img/bolhas/rele.png'); */
     background-size: contain;
     background-repeat: no-repeat; 
     background-position: center;
@@ -185,7 +185,7 @@
     -webkit-animation-delay: 1413ms;
             animation-delay: 1413ms;
     left: 90%;
-    background-image: url('../img/bolhas/rele.png');
+    /* background-image: url('../img/bolhas/rele.png'); */
     background-size: contain;
     background-repeat: no-repeat; 
     background-position: center;
@@ -196,7 +196,7 @@
     -webkit-animation-delay: 10446ms;
             animation-delay: 10446ms;
     left: 73%;
-    background-image: url('../img/bolhas/rele.png');
+    /* background-image: url('../img/bolhas/rele.png'); */
     background-size: contain;
     background-repeat: no-repeat; 
     background-position: center;
@@ -207,7 +207,7 @@
     -webkit-animation-delay: 7224ms;
             animation-delay: 7224ms;
     left: 63%;
-    background-image: url('../img/bolhas/rele.png');
+    /* background-image: url('../img/bolhas/rele.png'); */
     background-size: contain;
     background-repeat: no-repeat; 
     background-position: center;
@@ -218,7 +218,7 @@
     -webkit-animation-delay: 11322ms;
             animation-delay: 11322ms;
     left: 5%;
-    background-image: url('../img/bolhas/rele.png');
+    /* background-image: url('../img/bolhas/rele.png'); */
     background-size: contain;
     background-repeat: no-repeat; 
     background-position: center;
@@ -229,7 +229,7 @@
     -webkit-animation-delay: 6382ms;
             animation-delay: 6382ms;
     left: 55%;
-    background-image: url('../img/bolhas/rele.png');
+    /* background-image: url('../img/bolhas/rele.png'); */
     background-size: contain;
     background-repeat: no-repeat; 
     background-position: center;
@@ -240,7 +240,7 @@
     -webkit-animation-delay: 4501ms;
             animation-delay: 4501ms;
     left: 2%;
-    background-image: url('../img/bolhas/rele.png');
+    /* background-image: url('../img/bolhas/rele.png'); */
     background-size: contain;
     background-repeat: no-repeat; 
     background-position: center;
@@ -251,7 +251,7 @@
     -webkit-animation-delay: 9741ms;
             animation-delay: 9741ms;
     left: 65%;
-    background-image: url('../img/bolhas/rele.png');
+    /* background-image: url('../img/bolhas/rele.png'); */
     background-size: contain;
     background-repeat: no-repeat; 
     background-position: center;
@@ -262,7 +262,7 @@
     -webkit-animation-delay: 803ms;
             animation-delay: 803ms;
     left: 32%;
-    background-image: url('../img/bolhas/furador.png');
+    /* background-image: url('../img/bolhas/furador.png'); */
     background-size: contain;
     background-repeat: no-repeat; 
     background-position: center;
@@ -273,7 +273,7 @@
     -webkit-animation-delay: 7271ms;
             animation-delay: 7271ms;
     left: 57%;
-    background-image: url('../img/bolhas/furador.png');
+    /* background-image: url('../img/bolhas/furador.png'); */
     background-size: contain;
     background-repeat: no-repeat; 
     background-position: center;
@@ -284,7 +284,7 @@
     -webkit-animation-delay: 9299ms;
             animation-delay: 9299ms;
     left: 65%;
-    background-image: url('../img/bolhas/furador.png');
+    /* background-image: url('../img/bolhas/furador.png'); */
     background-size: contain;
     background-repeat: no-repeat; 
     background-position: center;
@@ -295,7 +295,7 @@
     -webkit-animation-delay: 3738ms;
             animation-delay: 3738ms;
     left: 24%;
-    background-image: url('../img/bolhas/furador.png');
+    /* background-image: url('../img/bolhas/furador.png'); */
     background-size: contain;
     background-repeat: no-repeat; 
     background-position: center;
@@ -306,7 +306,7 @@
     -webkit-animation-delay: 5976ms;
             animation-delay: 5976ms;
     left: 55%;
-    background-image: url('../img/bolhas/furador.png');
+    /* background-image: url('../img/bolhas/furador.png'); */
     background-size: contain;
     background-repeat: no-repeat; 
     background-position: center;
@@ -317,7 +317,7 @@
     -webkit-animation-delay: 78ms;
             animation-delay: 78ms;
     left: 31%;
-    background-image: url('../img/bolhas/furador.png');
+    /* background-image: url('../img/bolhas/furador.png'); */
     background-size: contain;
     background-repeat: no-repeat; 
     background-position: center;
@@ -328,7 +328,7 @@
     -webkit-animation-delay: 5864ms;
             animation-delay: 5864ms;
     left: 10%;
-    background-image: url('../img/bolhas/furador.png');
+    /* background-image: url('../img/bolhas/furador.png'); */
     background-size: contain;
     background-repeat: no-repeat; 
     background-position: center;
@@ -339,7 +339,7 @@
     -webkit-animation-delay: 11391ms;
             animation-delay: 11391ms;
     left: 18%;
-    background-image: url('../img/bolhas/furador.png');
+    /* background-image: url('../img/bolhas/furador.png'); */
     background-size: contain;
     background-repeat: no-repeat; 
     background-position: center;
@@ -350,7 +350,7 @@
     -webkit-animation-delay: 7415ms;
             animation-delay: 7415ms;
     left: 89%;
-    background-image: url('../img/bolhas/furador.png');
+    /* background-image: url('../img/bolhas/furador.png'); */
     background-size: contain;
     background-repeat: no-repeat; 
     background-position: center;
@@ -361,7 +361,7 @@
     -webkit-animation-delay: 11478ms;
             animation-delay: 11478ms;
     left: 14%;
-    background-image: url('../img/bolhas/furador.png');
+    /* background-image: url('../img/bolhas/furador.png'); */
     background-size: contain;
     background-repeat: no-repeat; 
     background-position: center;
@@ -372,7 +372,7 @@
     -webkit-animation-delay: 9210ms;
             animation-delay: 9210ms;
     left: 13%;
-    background-image: url('../img/bolhas/bombas.png');
+    /* background-image: url('../img/bolhas/bombas.png'); */
     background-size: contain;
     background-repeat: no-repeat; 
     background-position: center;
@@ -383,7 +383,7 @@
     -webkit-animation-delay: 8995ms;
             animation-delay: 8995ms;
     left: 96%;
-    background-image: url('../img/bolhas/bombas.png');
+    /* background-image: url('../img/bolhas/bombas.png'); */
     background-size: contain;
     background-repeat: no-repeat; 
     background-position: center;
@@ -394,7 +394,7 @@
     -webkit-animation-delay: 1720ms;
             animation-delay: 1720ms;
     left: 3%;
-    background-image: url('../img/bolhas/bombas.png');
+    /* background-image: url('../img/bolhas/bombas.png'); */
     background-size: contain;
     background-repeat: no-repeat; 
     background-position: center;
@@ -405,7 +405,7 @@
     -webkit-animation-delay: 10981ms;
             animation-delay: 10981ms;
     left: 44%;
-    background-image: url('../img/bolhas/bombas.png');
+    /* background-image: url('../img/bolhas/bombas.png'); */
     background-size: contain;
     background-repeat: no-repeat; 
     background-position: center;
@@ -416,7 +416,7 @@
     -webkit-animation-delay: 8984ms;
             animation-delay: 8984ms;
     left: 36%;
-    background-image: url('../img/bolhas/bombas.png');
+    /* background-image: url('../img/bolhas/bombas.png'); */
     background-size: contain;
     background-repeat: no-repeat; 
     background-position: center;
@@ -427,7 +427,7 @@
     -webkit-animation-delay: 1744ms;
             animation-delay: 1744ms;
     left: 11%;
-    background-image: url('../img/bolhas/bombas.png');
+    /* background-image: url('../img/bolhas/bombas.png'); */
     background-size: contain;
     background-repeat: no-repeat; 
     background-position: center;
@@ -438,7 +438,7 @@
     -webkit-animation-delay: 2631ms;
             animation-delay: 2631ms;
     left: 94%;
-    background-image: url('../img/bolhas/bombas.png');
+    /* background-image: url('../img/bolhas/bombas.png'); */
     background-size: contain;
     background-repeat: no-repeat; 
     background-position: center;
@@ -449,7 +449,7 @@
     -webkit-animation-delay: 2483ms;
             animation-delay: 2483ms;
     left: 71%;
-    background-image: url('../img/bolhas/bombas.png');
+    /* background-image: url('../img/bolhas/bombas.png'); */
     background-size: contain;
     background-repeat: no-repeat; 
     background-position: center;
@@ -460,7 +460,7 @@
     -webkit-animation-delay: 7511ms;
             animation-delay: 7511ms;
     left: 64%;
-    background-image: url('../img/bolhas/bombas.png');
+    /* background-image: url('../img/bolhas/bombas.png'); */
     background-size: contain;
     background-repeat: no-repeat; 
     background-position: center;
@@ -471,7 +471,7 @@
     -webkit-animation-delay: 5618ms;
             animation-delay: 5618ms;
     left: 5%;
-    background-image: url('../img/bolhas/bombas.png');
+    /* background-image: url('../img/bolhas/bombas.png'); */
     background-size: contain;
     background-repeat: no-repeat; 
     background-position: center;
@@ -482,7 +482,7 @@
     -webkit-animation-delay: 850ms;
             animation-delay: 850ms;
     left: 22%;
-    background-image: url('../img/bolhas/quadrorobo.png');
+    /* background-image: url('../img/bolhas/quadrorobo.png'); */
     background-size: contain;
     background-repeat: no-repeat; 
     background-position: center;
@@ -493,7 +493,7 @@
     -webkit-animation-delay: 2535ms;
             animation-delay: 2535ms;
     left: 43%;
-    background-image: url('../img/bolhas/quadrorobo.png');
+    /* background-image: url('../img/bolhas/quadrorobo.png'); */
     background-size: contain;
     background-repeat: no-repeat; 
     background-position: center;
@@ -504,7 +504,7 @@
     -webkit-animation-delay: 1706ms;
             animation-delay: 1706ms;
     left: 9%;
-    background-image: url('../img/bolhas/quadrorobo.png');
+    /* background-image: url('../img/bolhas/quadrorobo.png'); */
     background-size: contain;
     background-repeat: no-repeat; 
     background-position: center;
@@ -515,7 +515,7 @@
     -webkit-animation-delay: 828ms;
             animation-delay: 828ms;
     left: 36%;
-    background-image: url('../img/bolhas/quadrorobo.png');
+    /* background-image: url('../img/bolhas/quadrorobo.png'); */
     background-size: contain;
     background-repeat: no-repeat; 
     background-position: center;
@@ -526,7 +526,7 @@
     -webkit-animation-delay: 7805ms;
             animation-delay: 7805ms;
     left: 85%;
-    background-image: url('../img/bolhas/quadrorobo.png');
+    /* background-image: url('../img/bolhas/quadrorobo.png'); */
     background-size: contain;
     background-repeat: no-repeat; 
     background-position: center;
@@ -537,7 +537,7 @@
     -webkit-animation-delay: 3753ms;
             animation-delay: 3753ms;
     left: 52%;
-    background-image: url('../img/bolhas/quadrorobo.png');
+    /* background-image: url('../img/bolhas/quadrorobo.png'); */
     background-size: contain;
     background-repeat: no-repeat; 
     background-position: center;
@@ -548,7 +548,7 @@
     -webkit-animation-delay: 8653ms;
             animation-delay: 8653ms;
     left: 23%;
-    background-image: url('../img/bolhas/quadrorobo.png');
+    /* background-image: url('../img/bolhas/quadrorobo.png'); */
     background-size: contain;
     background-repeat: no-repeat; 
     background-position: center;
@@ -559,7 +559,7 @@
     -webkit-animation-delay: 10267ms;
             animation-delay: 10267ms;
     left: 27%;
-    background-image: url('../img/bolhas/quadrorobo.png');
+    /* background-image: url('../img/bolhas/quadrorobo.png'); */
     background-size: contain;
     background-repeat: no-repeat; 
     background-position: center;
@@ -570,7 +570,7 @@
     -webkit-animation-delay: 8869ms;
             animation-delay: 8869ms;
     left: 56%;
-    background-image: url('../img/bolhas/quadrorobo.png');
+    /* background-image: url('../img/bolhas/quadrorobo.png'); */
     background-size: contain;
     background-repeat: no-repeat; 
     background-position: center;
@@ -581,7 +581,7 @@
     -webkit-animation-delay: 2578ms;
             animation-delay: 2578ms;
     left: 61%;
-    background-image: url('../img/bolhas/quadrorobo.png');
+    /* background-image: url('../img/bolhas/quadrorobo.png'); */
     background-size: contain;
     background-repeat: no-repeat; 
     background-position: center;
@@ -592,7 +592,7 @@
     -webkit-animation-delay: 11732ms;
             animation-delay: 11732ms;
     left: 56%;
-    background-image: url('../img/bolhas/medicao.png');
+    /* background-image: url('../img/bolhas/medicao.png'); */
     background-size: contain;
     background-repeat: no-repeat; 
     background-position: center;
@@ -603,7 +603,7 @@
     -webkit-animation-delay: 5630ms;
             animation-delay: 5630ms;
     left: 54%;
-    background-image: url('../img/bolhas/medicao.png');
+    /* background-image: url('../img/bolhas/medicao.png'); */
     background-size: contain;
     background-repeat: no-repeat; 
     background-position: center;
@@ -614,7 +614,7 @@
     -webkit-animation-delay: 10134ms;
             animation-delay: 10134ms;
     left: 49%;
-    background-image: url('../img/bolhas/medicao.png');
+    /* background-image: url('../img/bolhas/medicao.png'); */
     background-size: contain;
     background-repeat: no-repeat; 
     background-position: center;
@@ -625,7 +625,7 @@
     -webkit-animation-delay: 9035ms;
             animation-delay: 9035ms;
     left: 54%;
-    background-image: url('../img/bolhas/medicao.png');
+    /* background-image: url('../img/bolhas/medicao.png'); */
     background-size: contain;
     background-repeat: no-repeat; 
     background-position: center;
@@ -636,7 +636,7 @@
     -webkit-animation-delay: 1293ms;
             animation-delay: 1293ms;
     left: 12%;
-    background-image: url('../img/bolhas/medicao.png');
+    /* background-image: url('../img/bolhas/medicao.png'); */
     background-size: contain;
     background-repeat: no-repeat; 
     background-position: center;
@@ -647,7 +647,7 @@
     -webkit-animation-delay: 10262ms;
             animation-delay: 10262ms;
     left: 24%;
-    background-image: url('../img/bolhas/medicao.png');
+    /* background-image: url('../img/bolhas/medicao.png'); */
     background-size: contain;
     background-repeat: no-repeat; 
     background-position: center;
@@ -658,7 +658,7 @@
     -webkit-animation-delay: 3477ms;
             animation-delay: 3477ms;
     left: 77%;
-    background-image: url('../img/bolhas/medicao.png');
+    /* background-image: url('../img/bolhas/medicao.png'); */
     background-size: contain;
     background-repeat: no-repeat; 
     background-position: center;
@@ -669,7 +669,7 @@
     -webkit-animation-delay: 6264ms;
             animation-delay: 6264ms;
     left: 44%;
-    background-image: url('../img/bolhas/medicao.png');
+    /* background-image: url('../img/bolhas/medicao.png'); */
     background-size: contain;
     background-repeat: no-repeat; 
     background-position: center;
@@ -680,7 +680,7 @@
     -webkit-animation-delay: 10409ms;
             animation-delay: 10409ms;
     left: 60%;
-    background-image: url('../img/bolhas/medicao.png');
+    /* background-image: url('../img/bolhas/medicao.png'); */
     background-size: contain;
     background-repeat: no-repeat; 
     background-position: center;
@@ -691,7 +691,7 @@
     -webkit-animation-delay: 4431ms;
             animation-delay: 4431ms;
     left: 88%;
-    background-image: url('../img/bolhas/medicao.png');
+    /* background-image: url('../img/bolhas/medicao.png'); */
     background-size: contain;
     background-repeat: no-repeat; 
     background-position: center;
@@ -702,7 +702,7 @@
     -webkit-animation-delay: 6881ms;
             animation-delay: 6881ms;
     left: 81%;
-    background-image: url('../img/bolhas/mesa.png');
+    /* background-image: url('../img/bolhas/mesa.png'); */
     background-size: contain;
     background-repeat: no-repeat; 
     background-position: center;
@@ -713,7 +713,7 @@
     -webkit-animation-delay: 3197ms;
             animation-delay: 3197ms;
     left: 68%;
-    background-image: url('../img/bolhas/mesa.png');
+    /* background-image: url('../img/bolhas/mesa.png'); */
     background-size: contain;
     background-repeat: no-repeat; 
     background-position: center;
@@ -724,7 +724,7 @@
     -webkit-animation-delay: 6088ms;
             animation-delay: 6088ms;
     left: 91%;
-    background-image: url('../img/bolhas/mesa.png');
+    /* background-image: url('../img/bolhas/mesa.png'); */
     background-size: contain;
     background-repeat: no-repeat; 
     background-position: center;
@@ -735,7 +735,7 @@
     -webkit-animation-delay: 7411ms;
             animation-delay: 7411ms;
     left: 75%;
-    background-image: url('../img/bolhas/mesa.png');
+    /* background-image: url('../img/bolhas/mesa.png'); */
     background-size: contain;
     background-repeat: no-repeat; 
     background-position: center;
@@ -746,7 +746,7 @@
     -webkit-animation-delay: 7708ms;
             animation-delay: 7708ms;
     left: 87%;
-    background-image: url('../img/bolhas/mesa.png');
+    /* background-image: url('../img/bolhas/mesa.png'); */
     background-size: contain;
     background-repeat: no-repeat; 
     background-position: center;
@@ -757,7 +757,7 @@
     -webkit-animation-delay: 7556ms;
             animation-delay: 7556ms;
     left: 77%;
-    background-image: url('../img/bolhas/mesa.png');
+    /* background-image: url('../img/bolhas/mesa.png'); */
     background-size: contain;
     background-repeat: no-repeat; 
     background-position: center;
@@ -768,7 +768,7 @@
     -webkit-animation-delay: 4838ms;
             animation-delay: 4838ms;
     left: 81%;
-    background-image: url('../img/bolhas/mesa.png');
+    /* background-image: url('../img/bolhas/mesa.png'); */
     background-size: contain;
     background-repeat: no-repeat; 
     background-position: center;
@@ -779,7 +779,7 @@
     -webkit-animation-delay: 9498ms;
             animation-delay: 9498ms;
     left: 59%;
-    background-image: url('../img/bolhas/mesa.png');
+    /* background-image: url('../img/bolhas/mesa.png'); */
     background-size: contain;
     background-repeat: no-repeat; 
     background-position: center;
@@ -790,7 +790,7 @@
     -webkit-animation-delay: 6848ms;
             animation-delay: 6848ms;
     left: 92%;
-    background-image: url('../img/bolhas/mesa.png');
+    /* background-image: url('../img/bolhas/mesa.png'); */
     background-size: contain;
     background-repeat: no-repeat; 
     background-position: center;
@@ -801,7 +801,7 @@
     -webkit-animation-delay: 2779ms;
             animation-delay: 2779ms;
     left: 1%;
-    background-image: url('../img/bolhas/mesa.png');
+    /* background-image: url('../img/bolhas/mesa.png'); */
     background-size: contain;
     background-repeat: no-repeat; 
     background-position: center;
@@ -812,7 +812,7 @@
     -webkit-animation-delay: 3270ms;
             animation-delay: 3270ms;
     left: 14%;
-    background-image: url('../img/bolhas/chave.png');
+    /* background-image: url('../img/bolhas/chave.png'); */
     background-size: contain;
     background-repeat: no-repeat; 
     background-position: center;
@@ -823,7 +823,7 @@
     -webkit-animation-delay: 9576ms;
             animation-delay: 9576ms;
     left: 55%;
-    background-image: url('../img/bolhas/chave.png');
+    /* background-image: url('../img/bolhas/chave.png'); */
     background-size: contain;
     background-repeat: no-repeat; 
     background-position: center;
@@ -834,7 +834,7 @@
     -webkit-animation-delay: 1259ms;
             animation-delay: 1259ms;
     left: 49%;
-    background-image: url('../img/bolhas/chave.png');
+    /* background-image: url('../img/bolhas/chave.png'); */
     background-size: contain;
     background-repeat: no-repeat; 
     background-position: center;
@@ -845,7 +845,7 @@
     -webkit-animation-delay: 3247ms;
             animation-delay: 3247ms;
     left: 71%;
-    background-image: url('../img/bolhas/chave.png');
+    /* background-image: url('../img/bolhas/chave.png'); */
     background-size: contain;
     background-repeat: no-repeat; 
     background-position: center;
@@ -856,7 +856,7 @@
     -webkit-animation-delay: 10260ms;
             animation-delay: 10260ms;
     left: 81%;
-    background-image: url('../img/bolhas/chave.png');
+    /* background-image: url('../img/bolhas/chave.png'); */
     background-size: contain;
     background-repeat: no-repeat; 
     background-position: center;
@@ -867,7 +867,7 @@
     -webkit-animation-delay: 9666ms;
             animation-delay: 9666ms;
     left: 86%;
-    background-image: url('../img/bolhas/chave.png');
+    /* background-image: url('../img/bolhas/chave.png'); */
     background-size: contain;
     background-repeat: no-repeat; 
     background-position: center;
@@ -878,7 +878,7 @@
     -webkit-animation-delay: 10150ms;
             animation-delay: 10150ms;
     left: 94%;
-    background-image: url('../img/bolhas/chave.png');
+    /* background-image: url('../img/bolhas/chave.png'); */
     background-size: contain;
     background-repeat: no-repeat; 
     background-position: center;
@@ -889,7 +889,7 @@
     -webkit-animation-delay: 1539ms;
             animation-delay: 1539ms;
     left: 41%;
-    background-image: url('../img/bolhas/chave.png');
+    /* background-image: url('../img/bolhas/chave.png'); */
     background-size: contain;
     background-repeat: no-repeat; 
     background-position: center;
@@ -900,7 +900,7 @@
     -webkit-animation-delay: 9345ms;
             animation-delay: 9345ms;
     left: 58%;
-    background-image: url('../img/bolhas/chave.png');
+    /* background-image: url('../img/bolhas/chave.png'); */
     background-size: contain;
     background-repeat: no-repeat; 
     background-position: center;
@@ -911,7 +911,7 @@
     -webkit-animation-delay: 2006ms;
             animation-delay: 2006ms;
     left: 64%;
-    background-image: url('../img/bolhas/chave.png');
+    /* background-image: url('../img/bolhas/chave.png'); */
     background-size: contain;
     background-repeat: no-repeat; 
     background-position: center;
@@ -922,7 +922,7 @@
     -webkit-animation-delay: 9504ms;
             animation-delay: 9504ms;
     left: 43%;
-    background-image: url('../img/bolhas/quadro.png');
+    /* background-image: url('../img/bolhas/quadro.png'); */
     background-size: contain;
     background-repeat: no-repeat; 
     background-position: center;
@@ -933,7 +933,7 @@
     -webkit-animation-delay: 10449ms;
             animation-delay: 10449ms;
     left: 10%;
-    background-image: url('../img/bolhas/quadro.png');
+    /* background-image: url('../img/bolhas/quadro.png'); */
     background-size: contain;
     background-repeat: no-repeat; 
     background-position: center;
@@ -944,7 +944,7 @@
     -webkit-animation-delay: 2123ms;
             animation-delay: 2123ms;
     left: 83%;
-    background-image: url('../img/bolhas/quadro.png');
+    /* background-image: url('../img/bolhas/quadro.png'); */
     background-size: contain;
     background-repeat: no-repeat; 
     background-position: center;
@@ -955,7 +955,7 @@
     -webkit-animation-delay: 7556ms;
             animation-delay: 7556ms;
     left: 27%;
-    background-image: url('../img/bolhas/quadro.png');
+    /* background-image: url('../img/bolhas/quadro.png'); */
     background-size: contain;
     background-repeat: no-repeat; 
     background-position: center;
@@ -966,7 +966,7 @@
     -webkit-animation-delay: 1079ms;
             animation-delay: 1079ms;
     left: 97%;
-    background-image: url('../img/bolhas/quadro.png');
+    /* background-image: url('../img/bolhas/quadro.png'); */
     background-size: contain;
     background-repeat: no-repeat; 
     background-position: center;
@@ -977,7 +977,7 @@
     -webkit-animation-delay: 3887ms;
             animation-delay: 3887ms;
     left: 98%;
-    background-image: url('../img/bolhas/quadro.png');
+    /* background-image: url('../img/bolhas/quadro.png'); */
     background-size: contain;
     background-repeat: no-repeat; 
     background-position: center;
@@ -988,7 +988,7 @@
     -webkit-animation-delay: 6425ms;
             animation-delay: 6425ms;
     left: 59%;
-    background-image: url('../img/bolhas/quadro.png');
+    /* background-image: url('../img/bolhas/quadro.png'); */
     background-size: contain;
     background-repeat: no-repeat; 
     background-position: center;
@@ -999,7 +999,7 @@
     -webkit-animation-delay: 3220ms;
             animation-delay: 3220ms;
     left: 20%;
-    background-image: url('../img/bolhas/quadro.png');
+    /* background-image: url('../img/bolhas/quadro.png'); */
     background-size: contain;
     background-repeat: no-repeat; 
     background-position: center;
@@ -1010,7 +1010,7 @@
     -webkit-animation-delay: 3356ms;
             animation-delay: 3356ms;
     left: 77%;
-    background-image: url('../img/bolhas/quadro.png');
+    /* background-image: url('../img/bolhas/quadro.png'); */
     background-size: contain;
     background-repeat: no-repeat; 
     background-position: center;
@@ -1021,7 +1021,7 @@
     -webkit-animation-delay: 4593ms;
             animation-delay: 4593ms;
     left: 50%;
-    background-image: url('../img/bolhas/quadro.png');
+    /* background-image: url('../img/bolhas/quadro.png'); */
     background-size: contain;
     background-repeat: no-repeat; 
     background-position: center;
@@ -1032,7 +1032,7 @@
     -webkit-animation-delay: 2909ms;
             animation-delay: 2909ms;
     left: 88%;
-    background-image: url('../img/bolhas/montagem.png');
+    /* background-image: url('../img/bolhas/montagem.png'); */
     background-size: contain;
     background-repeat: no-repeat; 
     background-position: center;
@@ -1043,7 +1043,7 @@
     -webkit-animation-delay: 4957ms;
             animation-delay: 4957ms;
     left: 86%;
-    background-image: url('../img/bolhas/montagem.png');
+    /* background-image: url('../img/bolhas/montagem.png'); */
     background-size: contain;
     background-repeat: no-repeat; 
     background-position: center;
@@ -1054,7 +1054,7 @@
     -webkit-animation-delay: 359ms;
             animation-delay: 359ms;
     left: 61%;
-    background-image: url('../img/bolhas/montagem.png');
+    /* background-image: url('../img/bolhas/montagem.png'); */
     background-size: contain;
     background-repeat: no-repeat; 
     background-position: center;
@@ -1065,7 +1065,7 @@
     -webkit-animation-delay: 5696ms;
             animation-delay: 5696ms;
     left: 35%;
-    background-image: url('../img/bolhas/montagem.png');
+    /* background-image: url('../img/bolhas/montagem.png'); */
     background-size: contain;
     background-repeat: no-repeat; 
     background-position: center;
@@ -1076,7 +1076,7 @@
     -webkit-animation-delay: 6842ms;
             animation-delay: 6842ms;
     left: 44%;
-    background-image: url('../img/bolhas/montagem.png');
+    /* background-image: url('../img/bolhas/montagem.png'); */
     background-size: contain;
     background-repeat: no-repeat; 
     background-position: center;
@@ -1087,7 +1087,7 @@
     -webkit-animation-delay: 3984ms;
             animation-delay: 3984ms;
     left: 18%;
-    background-image: url('../img/bolhas/montagem.png');
+    /* background-image: url('../img/bolhas/montagem.png'); */
     background-size: contain;
     background-repeat: no-repeat; 
     background-position: center;
@@ -1098,7 +1098,7 @@
     -webkit-animation-delay: 1100ms;
             animation-delay: 1100ms;
     left: 38%;
-    background-image: url('../img/bolhas/montagem.png');
+    /* background-image: url('../img/bolhas/montagem.png'); */
     background-size: contain;
     background-repeat: no-repeat; 
     background-position: center;
@@ -1109,7 +1109,7 @@
     -webkit-animation-delay: 2167ms;
             animation-delay: 2167ms;
     left: 32%;
-    background-image: url('../img/bolhas/montagem.png');
+    /* background-image: url('../img/bolhas/montagem.png'); */
     background-size: contain;
     background-repeat: no-repeat; 
     background-position: center;
@@ -1120,7 +1120,7 @@
     -webkit-animation-delay: 7521ms;
             animation-delay: 7521ms;
     left: 23%;
-    background-image: url('../img/bolhas/montagem.png');
+    /* background-image: url('../img/bolhas/montagem.png'); */
     background-size: contain;
     background-repeat: no-repeat; 
     background-position: center;
@@ -1131,7 +1131,7 @@
     -webkit-animation-delay: 4863ms;
             animation-delay: 4863ms;
     left: 52%;
-    background-image: url('../img/bolhas/montagem.png');
+    /* background-image: url('../img/bolhas/montagem.png'); */
     background-size: contain;
     background-repeat: no-repeat; 
     background-position: center;
@@ -1142,7 +1142,7 @@
    -webkit-animation-delay: 4081ms;
            animation-delay: 4081ms;
    left: 68%;
-   background-image: url('../img/bolhas/centro.png');
+   /* background-image: url('../img/bolhas/centro.png'); */
    background-size: contain;
    background-repeat: no-repeat; 
    background-position: center;
@@ -1153,7 +1153,7 @@
    -webkit-animation-delay: 5821ms;
            animation-delay: 5821ms;
    left: 26%;
-   background-image: url('../img/bolhas/centro.png');
+   /* background-image: url('../img/bolhas/centro.png'); */
    background-size: contain;
    background-repeat: no-repeat; 
    background-position: center;
@@ -1164,7 +1164,7 @@
    -webkit-animation-delay: 5207ms;
            animation-delay: 5207ms;
    left: 38%;
-   background-image: url('../img/bolhas/centro.png');
+   /* background-image: url('../img/bolhas/centro.png'); */
    background-size: contain;
    background-repeat: no-repeat; 
    background-position: center;
@@ -1175,7 +1175,7 @@
    -webkit-animation-delay: 3043ms;
            animation-delay: 3043ms;
    left: 44%;
-   background-image: url('../img/bolhas/centro.png');
+   /* background-image: url('../img/bolhas/centro.png'); */
    background-size: contain;
    background-repeat: no-repeat; 
    background-position: center;
@@ -1186,7 +1186,7 @@
    -webkit-animation-delay: 3330ms;
            animation-delay: 3330ms;
    left: 83%;
-   background-image: url('../img/bolhas/centro.png');
+   /* background-image: url('../img/bolhas/centro.png'); */
    background-size: contain;
    background-repeat: no-repeat; 
    background-position: center;
@@ -1197,7 +1197,7 @@
    -webkit-animation-delay: 2458ms;
            animation-delay: 2458ms;
    left: 62%;
-   background-image: url('../img/bolhas/centro.png');
+   /* background-image: url('../img/bolhas/centro.png'); */
    background-size: contain;
    background-repeat: no-repeat; 
    background-position: center;
@@ -1208,7 +1208,7 @@
    -webkit-animation-delay: 10481ms;
            animation-delay: 10481ms;
    left: 58%;
-   background-image: url('../img/bolhas/centro.png');
+   /* background-image: url('../img/bolhas/centro.png'); */
    background-size: contain;
    background-repeat: no-repeat; 
    background-position: center;
@@ -1219,7 +1219,7 @@
    -webkit-animation-delay: 6456ms;
            animation-delay: 6456ms;
    left: 57%;
-   background-image: url('../img/bolhas/centro.png');
+   /* background-image: url('../img/bolhas/centro.png'); */
    background-size: contain;
    background-repeat: no-repeat; 
    background-position: center;
@@ -1230,7 +1230,7 @@
    -webkit-animation-delay: 11738ms;
            animation-delay: 11738ms;
    left: 85%;
-   background-image: url('../img/bolhas/centro.png');
+   /* background-image: url('../img/bolhas/centro.png'); */
    background-size: contain;
    background-repeat: no-repeat; 
    background-position: center;
@@ -1241,7 +1241,7 @@
    -webkit-animation-delay: 1952ms;
            animation-delay: 1952ms;
    left: 75%;
-   background-image: url('../img/bolhas/centro.png');
+   /* background-image: url('../img/bolhas/centro.png'); */
    background-size: contain;
    background-repeat: no-repeat; 
    background-position: center;
@@ -1252,7 +1252,7 @@
    -webkit-animation-delay: 11883ms;
            animation-delay: 11883ms;
    left: 2%;
-   background-image: url('../img/bolhas/terrometro.png');
+   /* background-image: url('../img/bolhas/terrometro.png'); */
    background-size: contain;
    background-repeat: no-repeat; 
    background-position: center;
@@ -1263,7 +1263,7 @@
    -webkit-animation-delay: 11471ms;
            animation-delay: 11471ms;
    left: 98%;
-   background-image: url('../img/bolhas/terrometro.png');
+   /* background-image: url('../img/bolhas/terrometro.png'); */
    background-size: contain;
    background-repeat: no-repeat; 
    background-position: center;
@@ -1274,7 +1274,7 @@
    -webkit-animation-delay: 10393ms;
            animation-delay: 10393ms;
    left: 11%;
-   background-image: url('../img/bolhas/terrometro.png');
+   /* background-image: url('../img/bolhas/terrometro.png'); */
    background-size: contain;
    background-repeat: no-repeat; 
    background-position: center;
@@ -1285,7 +1285,7 @@
    -webkit-animation-delay: 9444ms;
            animation-delay: 9444ms;
    left: 13%;
-   background-image: url('../img/bolhas/terrometro.png');
+   /* background-image: url('../img/bolhas/terrometro.png'); */
    background-size: contain;
    background-repeat: no-repeat; 
    background-position: center;
@@ -1296,7 +1296,7 @@
    -webkit-animation-delay: 10775ms;
            animation-delay: 10775ms;
    left: 64%;
-   background-image: url('../img/bolhas/terrometro.png');
+   /* background-image: url('../img/bolhas/terrometro.png'); */
    background-size: contain;
    background-repeat: no-repeat; 
    background-position: center;
@@ -1307,7 +1307,7 @@
    -webkit-animation-delay: 669ms;
            animation-delay: 669ms;
    left: 12%;
-   background-image: url('../img/bolhas/terrometro.png');
+   /* background-image: url('../img/bolhas/terrometro.png'); */
    background-size: contain;
    background-repeat: no-repeat; 
    background-position: center;
@@ -1318,7 +1318,7 @@
    -webkit-animation-delay: 37ms;
            animation-delay: 37ms;
    left: 36%;
-   background-image: url('../img/bolhas/terrometro.png');
+   /* background-image: url('../img/bolhas/terrometro.png'); */
    background-size: contain;
    background-repeat: no-repeat; 
    background-position: center;
@@ -1329,7 +1329,7 @@
    -webkit-animation-delay: 8562ms;
            animation-delay: 8562ms;
    left: 9%;
-   background-image: url('../img/bolhas/terrometro.png');
+   /* background-image: url('../img/bolhas/terrometro.png'); */
    background-size: contain;
    background-repeat: no-repeat; 
    background-position: center;
@@ -1340,7 +1340,7 @@
    -webkit-animation-delay: 656ms;
            animation-delay: 656ms;
    left: 90%;
-   background-image: url('../img/bolhas/terrometro.png');
+   /* background-image: url('../img/bolhas/terrometro.png'); */
    background-size: contain;
    background-repeat: no-repeat; 
    background-position: center;
@@ -1351,7 +1351,7 @@
    -webkit-animation-delay: 11414ms;
            animation-delay: 11414ms;
    left: 6%;
-   background-image: url('../img/bolhas/terrometro.png');
+   /* background-image: url('../img/bolhas/terrometro.png'); */
    background-size: contain;
    background-repeat: no-repeat; 
    background-position: center;
