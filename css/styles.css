@@ -56,7 +56,6 @@ color: #113d72;
     display: flex;
     justify-content: space-between;
     padding: 10px;
-    background-color: rgba(255, 255, 255, 0.8); /* Adiciona um fundo branco translúcido */
 }
 
 .qr-code {
