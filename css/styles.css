@@ -49,16 +49,27 @@ color: #113d72;
 }
 
 .qr-codes {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
     display: flex;
-    justify-content: space-between; /* Distribui os elementos igualmente no espaço disponível */
-    margin-top: 20px;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.8); /* Adiciona um fundo branco translúcido */
 }
 
 .qr-code {
     max-width: 30%; /* Defina o tamanho desejado para os QR codes */
-    margin: 0 10px; /* Adiciona um espaço entre os QR codes */
 }
 
+.qr-code-left {
+    order: 1; /* Ordem 1 para posicionar à esquerda */
+}
+
+.qr-code-right {
+    order: 2; /* Ordem 2 para posicionar à direita */
+}
 .logo-img {
     max-width: 100%; /* Alterado para ocupar 100% da largura */
     height: auto;
