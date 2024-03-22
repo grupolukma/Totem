@@ -125,7 +125,7 @@ color: #113d72;
 
 .video-container2 {
     position: relative;
-    padding-bottom: 177.78%; /* 16:9 aspect ratio */
+    padding-bottom: 137.78%; /* 16:9 aspect ratio */
     height: 0;
     overflow: hidden;
 }
