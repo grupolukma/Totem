@@ -32,6 +32,7 @@ main {
 
 main p {
 color: #113d72;
+font-size: larger;
 }
 
 .menu-button {
@@ -118,18 +119,28 @@ color: #113d72;
 /* CSS for responsive video */
 .video-container {
     position: relative;
+    padding-top: 30px;
     padding-bottom: 56.25%; /* 16:9 aspect ratio */
     height: 0;
     overflow: hidden;
+    margin-top: 100px;
 }
 
 .video-container2 {
+    width: 100%; /* ou qualquer valor que se ajuste bem entre o texto e os botões de voltar */
+    margin: 20px auto; /* ou ajuste conforme necessário */
+    padding-bottom: 93.25%; /* ou outra proporção para manter a relação de aspecto 16:9 */
     position: relative;
-    padding-bottom: 137.78%; /* 16:9 aspect ratio */
-    height: 0;
     overflow: hidden;
 }
 
+.video-container2 video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
 
 
 
