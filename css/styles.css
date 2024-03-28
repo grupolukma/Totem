@@ -33,6 +33,7 @@ main {
 main p {
 color: #113d72;
 font-size:x-large;
+font-weight: bold;
 }
 
 .menu-button {
