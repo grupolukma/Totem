@@ -31,11 +31,16 @@ main {
 }
 
 main p {
-color: #113d72;
-font-size:x-large;
-font-weight: bold;
+    color: #113d72;
+    font-size:x-large;
+    font-weight: bold;
 }
 
+li{
+    color: #113d72;
+    font-size:x-large;
+    font-weight: bold;
+}
 .menu-button {
     width: 40%; /* Alterado para ocupar 100% da largura */
     padding: 30px; /* Reduzido o padding */
