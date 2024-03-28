@@ -34,12 +34,14 @@ main p {
     color: #113d72;
     font-size:x-large;
     font-weight: bold;
+    text-align: justify;
 }
 
 li{
     color: #113d72;
     font-size:x-large;
     font-weight: bold;
+    text-align: justify;
 }
 .menu-button {
     width: 40%; /* Alterado para ocupar 100% da largura */
