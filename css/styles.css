@@ -144,7 +144,7 @@ li{
 .video-container2 {
     width: 100%; /* ou qualquer valor que se ajuste bem entre o texto e os botões de voltar */
     margin: 20px auto; /* ou ajuste conforme necessário */
-    padding-bottom: 103.25%; /* ou outra proporção para manter a relação de aspecto 16:9 */
+    padding-bottom: 95.25%; /* ou outra proporção para manter a relação de aspecto 16:9 */
     position: relative;
     overflow: hidden;
 }
