@@ -59,17 +59,26 @@ font-size: larger;
     padding: 10px;
 }
 
+.qr-code-container {
+    position: relative;
+    text-align: center;
+}
+
 .qr-code {
-    max-width: 30%; /* Defina o tamanho desejado para os QR codes */
+    width: 300px; /* Defina o tamanho desejado para os QR codes */
 }
 
-.qr-code-left {
-    order: 1; /* Ordem 1 para posicionar à esquerda */
+.qr-code-container p {
+    position: absolute;
+    top: -15px; /* Ajuste conforme necessário */
+    left: 50%;
+    transform: translateX(-50%);
+    color: #000; /* Alterado para preto */
+    font-size: 30px;
+    font-weight: bold;
 }
 
-.qr-code-right {
-    order: 2; /* Ordem 2 para posicionar à direita */
-}
+
 .logo-img {
     max-width: 100%; /* Alterado para ocupar 100% da largura */
     height: auto;
@@ -119,7 +128,7 @@ font-size: larger;
 /* CSS for responsive video */
 .video-container {
     position: relative;
-    padding-top: 30px;
+    padding-top: 200px;
     padding-bottom: 56.25%; /* 16:9 aspect ratio */
     height: 0;
     overflow: hidden;
@@ -129,7 +138,7 @@ font-size: larger;
 .video-container2 {
     width: 100%; /* ou qualquer valor que se ajuste bem entre o texto e os botões de voltar */
     margin: 20px auto; /* ou ajuste conforme necessário */
-    padding-bottom: 93.25%; /* ou outra proporção para manter a relação de aspecto 16:9 */
+    padding-bottom: 103.25%; /* ou outra proporção para manter a relação de aspecto 16:9 */
     position: relative;
     overflow: hidden;
 }
